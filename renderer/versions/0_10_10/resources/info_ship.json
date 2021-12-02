@@ -1,0 +1,4226 @@
+{
+ "3555669712": {
+  "name": "ARP KONG\u014c",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "4181112272": {
+  "name": "L-20",
+  "species": "Submarine",
+  "level": 8,
+  "visibility_coef": 15.8
+ },
+ "4180620752": {
+  "name": "SOV. SOYUZ",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 26.38
+ },
+ "4277024464": {
+  "name": "F\u016aJIN",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4186912016": {
+  "name": "HERACLES ",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 15.0
+ },
+ "3554555600": {
+  "name": "SHINONOME",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.07
+ },
+ "4292851696": {
+  "name": "BOGUE (OLD)",
+  "species": "AirCarrier",
+  "level": 5,
+  "visibility_coef": 20.0
+ },
+ "3760142032": {
+  "name": "SHIKISHIMA",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 37.1
+ },
+ "3374266064": {
+  "name": "IGNIS PURGATIO",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.04
+ },
+ "3764303664": {
+  "name": "GRAF SPEE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 26.01
+ },
+ "4184815440": {
+  "name": "BRETAGNE",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 27.63
+ },
+ "4185798448": {
+  "name": "V-170",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 14.01
+ },
+ "4077303056": {
+  "name": "SEEL\u00d6WE",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 16
+ },
+ "4183734064": {
+  "name": "N\u00dcRNBERG",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 23.0
+ },
+ "4290688272": {
+  "name": "GALAXY",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "3741235152": {
+  "name": "BELFAST '43",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.77
+ },
+ "3972445456": {
+  "name": "GERFALCON",
+  "species": "Submarine",
+  "level": 7,
+  "visibility_coef": 12.75
+ },
+ "4289639696": {
+  "name": "ZAYA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "4270077200": {
+  "name": "LORINA",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3764271056": {
+  "name": "GALLANT",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 15.41
+ },
+ "3768857872": {
+  "name": "LIBERTY",
+  "species": "Auxiliary",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4179539728": {
+  "name": "GOUDEN LEEUW",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 25.87
+ },
+ "4186847024": {
+  "name": "G-101",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 13.95
+ },
+ "4184749872": {
+  "name": "T-22",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.15
+ },
+ "3667867440": {
+  "name": "TIRPITZ B",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 28.85
+ },
+ "3751786480": {
+  "name": "ENTERPRISE",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4269683984": {
+  "name": "MUTANTOVSK",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.92
+ },
+ "4179506384": {
+  "name": "YUEYANG",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.67
+ },
+ "3762206160": {
+  "name": "KUTUZOV",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.69
+ },
+ "4179539760": {
+  "name": "HINDENBURG",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.0
+ },
+ "4182717904": {
+  "name": "SINOP",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 25.68
+ },
+ "4276041712": {
+  "name": "IOWA",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 33.0
+ },
+ "3332323024": {
+  "name": "[YAMATO]",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 38.0
+ },
+ "3346282480": {
+  "name": "CIMARRON TEST",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4274960368": {
+  "name": "BUFFALO",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4185864144": {
+  "name": "ORION",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 23.17
+ },
+ "4282300112": {
+  "name": "IBUKI",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 24.0
+ },
+ "4259591440": {
+  "name": "MINELAYER",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4188977104": {
+  "name": "BLACK SWAN",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 16.46
+ },
+ "3764303312": {
+  "name": "MOLOTOV",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 21.85
+ },
+ "4188976336": {
+  "name": "CHENGAN",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 14.53
+ },
+ "4186846672": {
+  "name": "DERZKI",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 15.63
+ },
+ "4284364496": {
+  "name": "KAGER\u014c (OLD)",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 16.64
+ },
+ "4247008528": {
+  "name": "LIBERTY CIVIL",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3553540080": {
+  "name": "FLINT",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.28
+ },
+ "4074649296": {
+  "name": "HARUGUMO",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.36
+ },
+ "4181702640": {
+  "name": "LEXINGTON",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3763221968": {
+  "name": "LENINGRAD",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.12
+ },
+ "4184749904": {
+  "name": "JAGUAR",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 17.8
+ },
+ "3741234640": {
+  "name": "OCHAKOV",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 19.24
+ },
+ "4180555568": {
+  "name": "Z-46",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 16.47
+ },
+ "3552491216": {
+  "name": "ARP TAKAO",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.19
+ },
+ "3668883440": {
+  "name": "BOISE",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 19.51
+ },
+ "4182718192": {
+  "name": "F.\u00a0CARACCIOLO",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 23.72
+ },
+ "4182685520": {
+  "name": "ALG\u00c9RIE",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 24.75
+ },
+ "4182685456": {
+  "name": "EENDRACHT",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.5
+ },
+ "4290721040": {
+  "name": "MAGNU-S",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 28.85
+ },
+ "3667802064": {
+  "name": "COSSACK B",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.58
+ },
+ "4179539920": {
+  "name": "MINOTAUR",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 22.21
+ },
+ "3762271440": {
+  "name": "SANZANG",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4076779504": {
+  "name": "CLEVELAND",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 20.88
+ },
+ "4069438928": {
+  "name": "KOTOVSKY",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 22.05
+ },
+ "3762206704": {
+  "name": "WICHITA",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.25
+ },
+ "4182652368": {
+  "name": "UDALOI",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 17.86
+ },
+ "4186912720": {
+  "name": "BELLEROPHON",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 21.05
+ },
+ "4266931472": {
+  "name": "CANTERBURY",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4291737040": {
+  "name": "MURMANSK",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4180588336": {
+  "name": "ROON",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 24.8
+ },
+ "3340679120": {
+  "name": "CYCLOPS",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.93
+ },
+ "4079891920": {
+  "name": "PODVOISKY",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 17.33
+ },
+ "3542005456": {
+  "name": "ARP MAYA",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.19
+ },
+ "4183799760": {
+  "name": "FURIOUS",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "3550394352": {
+  "name": "SALEM",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 22.25
+ },
+ "4280203248": {
+  "name": "NEW ORLEANS (OLD)",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.63
+ },
+ "3765352400": {
+  "name": "EXETER",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 20.37
+ },
+ "3764336432": {
+  "name": "P. E. FRIEDRICH",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 26.97
+ },
+ "4287510224": {
+  "name": "FUBUKI (OLD)",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.07
+ },
+ "3762271696": {
+  "name": "CHKALOV",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4179507152": {
+  "name": "DARING",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.77
+ },
+ "4187895088": {
+  "name": "T\u00c1TRA",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 14.16
+ },
+ "4264441840": {
+  "name": "SIMS",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "3764270928": {
+  "name": "AIGLE",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 18.66
+ },
+ "4288952304": {
+  "name": "ST. CLAIR",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3750704848": {
+  "name": "HIZEN",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 30.0
+ },
+ "4181669872": {
+  "name": "KANSAS",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 31.7
+ },
+ "4281251536": {
+  "name": "KUMA",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 18.09
+ },
+ "3763287888": {
+  "name": "STRASBOURG",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 29.87
+ },
+ "3660461904": {
+  "name": "CYCLONE",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 17.39
+ },
+ "3760076080": {
+  "name": "FRIESLAND",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.11
+ },
+ "3762206544": {
+  "name": "BAYARD",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.18
+ },
+ "3751753168": {
+  "name": "LENIN",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 26.38
+ },
+ "3740153648": {
+  "name": "ZF-6",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 17.47
+ },
+ "4179572720": {
+  "name": "VERMONT",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.2
+ },
+ "4184782576": {
+  "name": "MONTECUCCOLI",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 21.85
+ },
+ "3764271088": {
+  "name": "MONAGHAN",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 18.35
+ },
+ "4179572560": {
+  "name": "R\u00c9PUBLIQUE",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.4
+ },
+ "4291769616": {
+  "name": "ZIKASA",
+  "species": "Battleship",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3765319664": {
+  "name": "HILL",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 18.11
+ },
+ "3445503440": {
+  "name": "DD R-10",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.0
+ },
+ "3767482320": {
+  "name": "DREADNOUGHT",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 17.96
+ },
+ "4290688720": {
+  "name": "Y\u016aBARI",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 18.57
+ },
+ "4182652880": {
+  "name": "JERVIS",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.8
+ },
+ "3761681872": {
+  "name": "S-189",
+  "species": "Submarine",
+  "level": 8,
+  "visibility_coef": 21.6
+ },
+ "4288624336": {
+  "name": "FUS\u014c",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 29.21
+ },
+ "4079957808": {
+  "name": "DERFFLINGER",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 16.9
+ },
+ "4183733712": {
+  "name": "BUDYONNY",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 23.25
+ },
+ "4284364048": {
+  "name": "CELESTIAL",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.74
+ },
+ "3764369232": {
+  "name": "B\u00c9ARN",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4186879728": {
+  "name": "TARANTO",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 15.95
+ },
+ "4277122768": {
+  "name": "HAKURY\u016a (OLD)",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4178458320": {
+  "name": "YAMAGIRI",
+  "species": "Destroyer",
+  "level": 11,
+  "visibility_coef": 21.0
+ },
+ "4181604304": {
+  "name": "LIGHTNING",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.25
+ },
+ "3730749424": {
+  "name": "ROCHESTER",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.05
+ },
+ "3751786448": {
+  "name": "ARK ROYAL",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "3763320816": {
+  "name": "SAIPAN (OLD)",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 20.0
+ },
+ "3761682128": {
+  "name": "I-58",
+  "species": "Submarine",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3655218480": {
+  "name": "SM\u00c5LAND",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.69
+ },
+ "4082054960": {
+  "name": "VON DER TANN",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.59
+ },
+ "4180587728": {
+  "name": "SEJONG",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 20.63
+ },
+ "3768497968": {
+  "name": "EMDEN",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 13.82
+ },
+ "4182160656": {
+  "name": "ZIPPER SUB",
+  "species": "Submarine",
+  "level": 7,
+  "visibility_coef": 12.75
+ },
+ "4187928304": {
+  "name": "NINO BIXIO",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 16.9
+ },
+ "3764303216": {
+  "name": "PERTH",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 18.63
+ },
+ "4278106096": {
+  "name": "WORCESTER",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "3756963280": {
+  "name": "VARYAG",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 15.47
+ },
+ "4185797936": {
+  "name": "KLAS HORN",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 15.61
+ },
+ "4185896400": {
+  "name": "KOMSOMOLETS",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "4259231440": {
+  "name": "ZA\u014c",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 25.0
+ },
+ "4187895632": {
+  "name": "EN. GABOLDE",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 14.94
+ },
+ "4181112816": {
+  "name": "SALMON",
+  "species": "Submarine",
+  "level": 8,
+  "visibility_coef": 17.7
+ },
+ "4183799792": {
+  "name": "RANGER",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4185896752": {
+  "name": "RHEIN",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "4289640432": {
+  "name": "OMAHA",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 18.39
+ },
+ "3743365072": {
+  "name": "REPULSE",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 26.8
+ },
+ "3559143120": {
+  "name": "ARP I-401",
+  "species": "Auxiliary",
+  "level": 11,
+  "visibility_coef": 0
+ },
+ "4281284592": {
+  "name": "ARKANSAS B",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 17.71
+ },
+ "3763255024": {
+  "name": "ABRUZZI",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.36
+ },
+ "3767416176": {
+  "name": "VAMPIRE",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 16.59
+ },
+ "4184782640": {
+  "name": "K\u00d6NIGSBERG",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 23.0
+ },
+ "3971888592": {
+  "name": "KIEV",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.0
+ },
+ "4271781136": {
+  "name": "ANGLER",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 20.6
+ },
+ "4289607664": {
+  "name": "FARRAGUT",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 18.42
+ },
+ "3765351888": {
+  "name": "KRASNY KRYM",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 24.17
+ },
+ "4284397008": {
+  "name": "DIANA L",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3741267408": {
+  "name": "BORODINO",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 24.43
+ },
+ "3763221872": {
+  "name": "HAIDA",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.58
+ },
+ "4075697872": {
+  "name": "Y\u016aGUMO",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 17.0
+ },
+ "4288657104": {
+  "name": "ZUIH\u014c (OLD)",
+  "species": "AirCarrier",
+  "level": 5,
+  "visibility_coef": 20.0
+ },
+ "3761190640": {
+  "name": "MARCO POLO",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 29.61
+ },
+ "4293801424": {
+  "name": "GREMYASHCHY",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4183701200": {
+  "name": "FUBUKI",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.07
+ },
+ "4186847056": {
+  "name": "FUSILIER",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 17.2
+ },
+ "4182652720": {
+  "name": "MAASS",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 16.29
+ },
+ "3759585072": {
+  "name": "U-4501",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 21.8
+ },
+ "4285412624": {
+  "name": "RAZORWORM",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 18.0
+ },
+ "4293867216": {
+  "name": "KAWACHI",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 14.83
+ },
+ "4275975440": {
+  "name": "MIZU-JET",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.36
+ },
+ "3754866128": {
+  "name": "MIKOYAN",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 23.92
+ },
+ "3667801296": {
+  "name": "LOYANG B",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.16
+ },
+ "4290655504": {
+  "name": "FLYFIRE",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "3764336464": {
+  "name": "DUNKERQUE",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 29.87
+ },
+ "3762173776": {
+  "name": "LE TERRIBLE",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.92
+ },
+ "3551442640": {
+  "name": "ARP HAGURO",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "3760109552": {
+  "name": "ALASKA",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 28.0
+ },
+ "3753785136": {
+  "name": "K. SCH\u00d6NBERG",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 16.31
+ },
+ "3751753552": {
+  "name": "JEAN BART",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 33.23
+ },
+ "4279154384": {
+  "name": "TENRY\u016a",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 16.44
+ },
+ "3763222224": {
+  "name": "Y\u016aDACHI",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.48
+ },
+ "4179015120": {
+  "name": "K-1",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 17.3
+ },
+ "4279121168": {
+  "name": "ATOMIC RAGE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.25
+ },
+ "4273878288": {
+  "name": "SEASCYTHE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.92
+ },
+ "4285445392": {
+  "name": "OCTOPUS",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.37
+ },
+ "4185831376": {
+  "name": "DANAE",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 18.16
+ },
+ "4179539696": {
+  "name": "VENEZIA",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.5
+ },
+ "3762239216": {
+  "name": "ROMA",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 24.95
+ },
+ "4077828048": {
+  "name": "SURREY",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.4
+ },
+ "3655251408": {
+  "name": "SMOLENSK",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 21.82
+ },
+ "3760076144": {
+  "name": "VAMPIRE II",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.77
+ },
+ "4081006384": {
+  "name": "MOLTKE",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 16.12
+ },
+ "4292818736": {
+  "name": "TIRPITZ",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 28.85
+ },
+ "4286527472": {
+  "name": "COLORADO",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 28.0
+ },
+ "4281251088": {
+  "name": "FOSSIL",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.03
+ },
+ "4185798480": {
+  "name": "BOURRASQUE",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 17.48
+ },
+ "3340645680": {
+  "name": "LAPPLAND",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.69
+ },
+ "4293866768": {
+  "name": "JACKAL",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.61
+ },
+ "4186846480": {
+  "name": "HECTOR",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "4290655952": {
+  "name": "MINEKAZE",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 13.82
+ },
+ "3515102480": {
+  "name": "INTANIA QUEEN",
+  "species": "Auxiliary",
+  "level": 11,
+  "visibility_coef": 0
+ },
+ "3760076752": {
+  "name": "DRUID",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 20.28
+ },
+ "4279219920": {
+  "name": "TAIH\u014c (OLD)",
+  "species": "AirCarrier",
+  "level": 9,
+  "visibility_coef": 20.0
+ },
+ "4255037136": {
+  "name": "ATAGO",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.19
+ },
+ "3542005744": {
+  "name": "AL MONTPELIER",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 20.88
+ },
+ "3554588464": {
+  "name": "HSF GRAF SPEE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 26.01
+ },
+ "4179539152": {
+  "name": "JINAN",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 20.63
+ },
+ "4184782032": {
+  "name": "CHUNGKING",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 19.83
+ },
+ "3764270416": {
+  "name": "JURU\u00c1",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 15.41
+ },
+ "3864933840": {
+  "name": "DELNY",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.55
+ },
+ "3761125136": {
+  "name": "GRONINGEN",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.11
+ },
+ "4267587280": {
+  "name": "KAMIKAZE R",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3760109264": {
+  "name": "AZUMA",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 27.0
+ },
+ "4268635856": {
+  "name": "KAMIKAZE",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4179506640": {
+  "name": "KHABAROVSK",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.92
+ },
+ "4179572688": {
+  "name": "CONQUEROR",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 32.38
+ },
+ "4283381008": {
+  "name": "CROCOSAUR",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "3679369200": {
+  "name": "ATLANTA B",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.32
+ },
+ "4182718416": {
+  "name": "KING GEORGE V",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 25.08
+ },
+ "3762238928": {
+  "name": "POLTAVA",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 23.91
+ },
+ "4186879952": {
+  "name": "CALEDON",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 17.5
+ },
+ "3331241680": {
+  "name": "TONE 3",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.64
+ },
+ "3767482160": {
+  "name": "K. ALBERT",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.28
+ },
+ "4181702096": {
+  "name": "POBEDA",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3762173232": {
+  "name": "ORKAN",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.25
+ },
+ "3763255248": {
+  "name": "BELFAST",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.77
+ },
+ "3667900208": {
+  "name": "GRAF ZEPPELIN B",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3751753712": {
+  "name": "MASSACHUSETTS",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.0
+ },
+ "4180554960": {
+  "name": "CHUNG MU",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 17.89
+ },
+ "4183766832": {
+  "name": "BAYERN",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 26.92
+ },
+ "3764303696": {
+  "name": "DE GRASSE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 24.44
+ },
+ "4076812080": {
+  "name": "ZIETEN",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 28.35
+ },
+ "4183701456": {
+  "name": "ICARUS",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 16.59
+ },
+ "3666818864": {
+  "name": "POMMERN B",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 28.73
+ },
+ "4293145872": {
+  "name": "TRANSYLVANIA",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3552458448": {
+  "name": "HSF HAREKAZE",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.64
+ },
+ "4179015472": {
+  "name": "U-2501",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 15.9
+ },
+ "3765385200": {
+  "name": "OKLAHOMA",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 24.0
+ },
+ "4078843600": {
+  "name": "HATSUHARU",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 16.28
+ },
+ "4269684432": {
+  "name": "WAKATAKE",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 14.5
+ },
+ "3760109008": {
+  "name": "STALINGRAD",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 27.56
+ },
+ "3762272048": {
+  "name": "GRAF ZEPPELIN (OLD)",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4180621104": {
+  "name": "F. DER GROSSE",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 30.0
+ },
+ "4282365648": {
+  "name": "SH\u014cKAKU (OLD)",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3667900112": {
+  "name": "KAGA B",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3542005552": {
+  "name": "CROSS OF DORN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.21
+ },
+ "3767416784": {
+  "name": "CAMPBELTOWN",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 14.17
+ },
+ "3763255280": {
+  "name": "INDIANAPOLIS",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 23.48
+ },
+ "4288558800": {
+  "name": "HATSUHARU (OLD)",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 16.28
+ },
+ "4276368656": {
+  "name": "CABOTEUR",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4270732560": {
+  "name": "STEEL LANCET",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 0
+ },
+ "4293834192": {
+  "name": "AURORA",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 0
+ },
+ "4248745968": {
+  "name": "MARBLEHEAD",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4281218320": {
+  "name": "MESSER",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.74
+ },
+ "4274927600": {
+  "name": "CLEMSON",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 13.47
+ },
+ "3555636944": {
+  "name": "ARP MY\u014cK\u014c",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "4078876624": {
+  "name": "DEVONSHIRE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 20.02
+ },
+ "3749623504": {
+  "name": "YOSHINO",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 30.0
+ },
+ "4077794768": {
+  "name": "MINSK",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.27
+ },
+ "4074649392": {
+  "name": "ELBING",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.11
+ },
+ "4292850960": {
+  "name": "AIR FORCE",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 0.01
+ },
+ "3751720752": {
+  "name": "MAINZ",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.21
+ },
+ "4277057520": {
+  "name": "BALTIMORE (OLD)",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 22.25
+ },
+ "4186879760": {
+  "name": "JAVA",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 18.55
+ },
+ "3667900400": {
+  "name": "SAIPAN B",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3762239472": {
+  "name": "ALABAMA",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 30.0
+ },
+ "3762272208": {
+  "name": "INDOMITABLE",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3551475152": {
+  "name": "AL SOV. ROSSIYA",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 26.38
+ },
+ "3763287408": {
+  "name": "YUKON",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 25.08
+ },
+ "3655251952": {
+  "name": "PUERTO RICO",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 27.0
+ },
+ "4181637072": {
+  "name": "EDINBURGH",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.77
+ },
+ "4293146608": {
+  "name": "CIMARRON",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3762239440": {
+  "name": "VANGUARD",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.19
+ },
+ "4258542864": {
+  "name": "JOHN CATTLING",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3760109392": {
+  "name": "COLBERT",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 21.91
+ },
+ "3553572560": {
+  "name": "ARP HARUNA",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "3340645840": {
+  "name": "[GROZOVOI]",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.25
+ },
+ "3762206512": {
+  "name": "PRINZ EUGEN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.21
+ },
+ "3552524016": {
+  "name": "AL LITTORIO",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 24.95
+ },
+ "3741300720": {
+  "name": "SAIPAN",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4276008656": {
+  "name": "TONE",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.64
+ },
+ "3768497488": {
+  "name": "ALTE ABREU",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 13.18
+ },
+ "4185896656": {
+  "name": "H\u014cSH\u014c",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "3761190896": {
+  "name": "MISSOURI",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 31.14
+ },
+ "4185863632": {
+  "name": "GANGUT",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 18.27
+ },
+ "4283315472": {
+  "name": "COMET TRACE",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "4183799600": {
+  "name": "WESER",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "3767448848": {
+  "name": "SHIP",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 1.0
+ },
+ "3761125360": {
+  "name": "BENHAM",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.41
+ },
+ "3553572848": {
+  "name": "CALIFORNIA",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.8
+ },
+ "4181669616": {
+  "name": "V.\u00a0VENETO",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 24.95
+ },
+ "4178523952": {
+  "name": "HANNOVER",
+  "species": "Battleship",
+  "level": 11,
+  "visibility_coef": 30.0
+ },
+ "4181112624": {
+  "name": "U-190",
+  "species": "Submarine",
+  "level": 8,
+  "visibility_coef": 14.8
+ },
+ "4183799248": {
+  "name": "SEROV",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4291736848": {
+  "name": "SVYATOZAR",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.06
+ },
+ "3655284688": {
+  "name": "INCOMPARABLE",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 25.43
+ },
+ "3750639408": {
+  "name": "Z-44",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 16.61
+ },
+ "4180555600": {
+  "name": "MOGADOR",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.87
+ },
+ "3762239312": {
+  "name": "GASCOGNE",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.51
+ },
+ "4184782800": {
+  "name": "EMERALD",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 19.57
+ },
+ "4292818896": {
+  "name": "WARSPITE",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 0
+ },
+ "3750705136": {
+  "name": "KEARSARGE",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 26.59
+ },
+ "3865982416": {
+  "name": "TASHKENT",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.0
+ },
+ "4178491216": {
+  "name": "COND\u00c9",
+  "species": "Cruiser",
+  "level": 11,
+  "visibility_coef": 25.63
+ },
+ "4184815056": {
+  "name": "PYOTR VELIKIY",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 23.24
+ },
+ "4185830864": {
+  "name": "SVIETLANA",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 16.72
+ },
+ "4078876656": {
+  "name": "DALLAS",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 19.21
+ },
+ "4179507024": {
+  "name": "KL\u00c9BER",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.64
+ },
+ "4074714928": {
+  "name": "SCHLIEFFEN",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 27.96
+ },
+ "4293801680": {
+  "name": "TACHIBANA",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 12.75
+ },
+ "4179572464": {
+  "name": "C.\u00a0COLOMBO",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 29.4
+ },
+ "4182685488": {
+  "name": "YORCK",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 23.94
+ },
+ "4185831184": {
+  "name": "DE RUYTER",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 22.82
+ },
+ "4077795120": {
+  "name": "Z-31",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.15
+ },
+ "3760109296": {
+  "name": "NAPOLI",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 25.08
+ },
+ "4074682352": {
+  "name": "WORCESTER",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 23.3
+ },
+ "3337500656": {
+  "name": "[GEARING]",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "3760175088": {
+  "name": "F.\u00a0D.\u00a0ROOSEVELT",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "3659445712": {
+  "name": "MAKAROV",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 22.79
+ },
+ "4290689008": {
+  "name": "ST.\u00a0LOUIS",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 15.66
+ },
+ "3969857328": {
+  "name": "PREUSSEN",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 35.18
+ },
+ "4291704528": {
+  "name": "ISOKAZE",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 16.12
+ },
+ "4185831248": {
+  "name": "DUGUAY-TROUIN",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 21.38
+ },
+ "3752802288": {
+  "name": "FLORIDA",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.0
+ },
+ "3760142320": {
+  "name": "OHIO",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.0
+ },
+ "4183734032": {
+  "name": "KIJKDUIN",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 22.5
+ },
+ "3764336624": {
+  "name": "ARIZONA",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 24.0
+ },
+ "3551410160": {
+  "name": "BLACK",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.72
+ },
+ "3445503984": {
+  "name": "GEARING P",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4181702608": {
+  "name": "IMPLACABLE",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4183799504": {
+  "name": "RY\u016aJ\u014c",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4266538992": {
+  "name": "WICKES",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 14.17
+ },
+ "4183734224": {
+  "name": "LEANDER",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 19.05
+ },
+ "3344905936": {
+  "name": "ISE 2",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 28.75
+ },
+ "3765385168": {
+  "name": "AGINCOURT",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 21.53
+ },
+ "3867587856": {
+  "name": "BARRACUDA",
+  "species": "Submarine",
+  "level": 7,
+  "visibility_coef": 12.75
+ },
+ "4182685680": {
+  "name": "NEW ORLEANS",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.63
+ },
+ "3658397424": {
+  "name": "GORIZIA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.08
+ },
+ "4287575760": {
+  "name": "KONG\u014c",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "4184749520": {
+  "name": "GNEVNY (OLD)",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 17.59
+ },
+ "4187928528": {
+  "name": "WEYMOUTH",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 16.12
+ },
+ "4181636880": {
+  "name": "HAARLEM",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.47
+ },
+ "3762730256": {
+  "name": "KILLER WHALE",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 9.0
+ },
+ "4282266896": {
+  "name": "ROVER",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 20.6
+ },
+ "4274926864": {
+  "name": "STEALTHEDO",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.77
+ },
+ "4076746192": {
+  "name": "OGNEVOI",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.73
+ },
+ "3247355344": {
+  "name": "TEST SHIP",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4187928016": {
+  "name": "NOVIK",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 15.33
+ },
+ "3560912592": {
+  "name": "ARP YAMATO",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 38.0
+ },
+ "4074747856": {
+  "name": "AUDACIOUS",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4284396816": {
+  "name": "CENTURY HAWK",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 24.57
+ },
+ "4267980048": {
+  "name": "MEDWAY QUEEN",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3767449296": {
+  "name": "KATORI",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 19.46
+ },
+ "4282333168": {
+  "name": "N. CAROLINA",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.0
+ },
+ "4291704080": {
+  "name": "URASHIMA",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.64
+ },
+ "3763288048": {
+  "name": "W. VIRGINIA 1941",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 22.5
+ },
+ "4077860656": {
+  "name": "P.\u00a0HEINRICH",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 28.2
+ },
+ "3752802256": {
+  "name": "NELSON",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 25.05
+ },
+ "4288559088": {
+  "name": "MAHAN",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.25
+ },
+ "3667801808": {
+  "name": "ASASHIO B",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 20.6
+ },
+ "4181636848": {
+  "name": "AMALFI",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.62
+ },
+ "4077828080": {
+  "name": "HELENA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 19.51
+ },
+ "4188976912": {
+  "name": "VAN KINSBERGEN",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 20.58
+ },
+ "4285478160": {
+  "name": "SCORPIOID",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 38.0
+ },
+ "4280170480": {
+  "name": "NICHOLAS",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.38
+ },
+ "3760142160": {
+  "name": "BOURGOGNE",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 32.98
+ },
+ "3450812144": {
+  "name": "GIUNIO BRUTO",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 22.9
+ },
+ "4180588304": {
+  "name": "JOHAN DE WITT",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 22.47
+ },
+ "4272830448": {
+  "name": "FLETCHER",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.84
+ },
+ "4181636560": {
+  "name": "CHAPAYEV",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.06
+ },
+ "4179605296": {
+  "name": "M.\u00a0RICHTHOFEN",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "3762206480": {
+  "name": "DE 7 PROVINCI\u00cbN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.5
+ },
+ "3764369200": {
+  "name": "E. LOEWENHARDT",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4281219056": {
+  "name": "GEARING",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4290721776": {
+  "name": "WYOMING",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 20.33
+ },
+ "4179015664": {
+  "name": "BALAO",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 19.2
+ },
+ "4248057104": {
+  "name": "CIMARRON CIVIL",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4183700944": {
+  "name": "OGNEVOI (OLD)",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.73
+ },
+ "4081039312": {
+  "name": "HERMES",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "3552523984": {
+  "name": "ARP HIEI",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "4184815344": {
+  "name": "CAVOUR",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 19.01
+ },
+ "4293867504": {
+  "name": "S. CAROLINA",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.75
+ },
+ "3764303600": {
+  "name": "DUCA D'AOSTA",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 20.08
+ },
+ "4180588496": {
+  "name": "NEPTUNE",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 23.1
+ },
+ "4179539408": {
+  "name": "MOSKVA",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.55
+ },
+ "4181603536": {
+  "name": "HSIENYANG",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.32
+ },
+ "4293866960": {
+  "name": "NIKOLAI I",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 0
+ },
+ "4184749776": {
+  "name": "MUTSUKI",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 13.82
+ },
+ "4291802384": {
+  "name": "NOBILIUM",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4292785968": {
+  "name": "DRESDEN",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 13.82
+ },
+ "3764270896": {
+  "name": "T-61",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.29
+ },
+ "4076746448": {
+  "name": "KAGER\u014c",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.64
+ },
+ "4187895600": {
+  "name": "V-25",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 13.1
+ },
+ "3751720944": {
+  "name": "ANCHORAGE",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 23.0
+ },
+ "3751687888": {
+  "name": "ASASHIO",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 20.6
+ },
+ "4292753104": {
+  "name": "UMIKAZE",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 12.75
+ },
+ "3763255088": {
+  "name": "M\u00dcNCHEN",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 20.91
+ },
+ "4257494288": {
+  "name": "LANDING SHIP 1",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4284430032": {
+  "name": "NAGATO",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.69
+ },
+ "4292753392": {
+  "name": "SAMPSON",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 13.38
+ },
+ "3660462032": {
+  "name": "ANTHONY",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.18
+ },
+ "4183734096": {
+  "name": "LA GALISSONNI\u00c8RE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 24.15
+ },
+ "4258182864": {
+  "name": "CHIKUMA",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 15.52
+ },
+ "4183733456": {
+  "name": "RAHMAT",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 20.05
+ },
+ "4074649040": {
+  "name": "GROZOVOI",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.25
+ },
+ "3667867632": {
+  "name": "MASSACHUSETTS B",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 31.35
+ },
+ "4180588272": {
+  "name": "BRINDISI",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 24.45
+ },
+ "4187928400": {
+  "name": "JURIEN",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 14.09
+ },
+ "3766433072": {
+  "name": "VIRIBUS UNITIS",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 18.5
+ },
+ "3751720144": {
+  "name": "WUKONG",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 26.0
+ },
+ "3333371888": {
+  "name": "[MONTANA]",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.0
+ },
+ "4180588368": {
+  "name": "SAINT-LOUIS",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 26.0
+ },
+ "4293801232": {
+  "name": "BLADE",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 14.5
+ },
+ "3761190864": {
+  "name": "MARLBOROUGH",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 26.03
+ },
+ "4180555216": {
+  "name": "KIEV (OLD)",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 18.0
+ },
+ "4182652752": {
+  "name": "VAUQUELIN",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 18.97
+ },
+ "4178458064": {
+  "name": "ZORKIY",
+  "species": "Destroyer",
+  "level": 11,
+  "visibility_coef": 18.92
+ },
+ "4284429584": {
+  "name": "MAVERICK",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 34.4
+ },
+ "4293834000": {
+  "name": "IGOR",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 0
+ },
+ "4181669328": {
+  "name": "VLADIVOSTOK",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 25.91
+ },
+ "4180621136": {
+  "name": "ALSACE",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 32.98
+ },
+ "4286494416": {
+  "name": "MY\u014cK\u014c",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "4076779472": {
+  "name": "ALBEMARLE",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 23.64
+ },
+ "3760141776": {
+  "name": "SLAVA",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 30.19
+ },
+ "3744380368": {
+  "name": "KIROV",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 22.8
+ },
+ "4283348240": {
+  "name": "OCTODROID",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 28.0
+ },
+ "4185798096": {
+  "name": "IZYASLAV",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 15.45
+ },
+ "4179506992": {
+  "name": "Z-52",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.74
+ },
+ "4181636912": {
+  "name": "HIPPER",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.41
+ },
+ "4187895760": {
+  "name": "MEDEA",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 13.81
+ },
+ "3752736720": {
+  "name": "COSSACK",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.58
+ },
+ "4287509776": {
+  "name": "SCHNELLBOOT",
+  "species": "Destroyer",
+  "level": 1,
+  "visibility_coef": 13.1
+ },
+ "4292786160": {
+  "name": "CHESTER",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 14.22
+ },
+ "3668850672": {
+  "name": "SIMS B",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "4187928336": {
+  "name": "GELDERLAND",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 18.3
+ },
+ "4184750032": {
+  "name": "ACASTA",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.59
+ },
+ "3765352176": {
+  "name": "GENOVA",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 18.97
+ },
+ "3751786192": {
+  "name": "KAGA",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4183766480": {
+  "name": "IZMAIL",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 24.17
+ },
+ "3445536592": {
+  "name": "BRENNUS",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.03
+ },
+ "4179572176": {
+  "name": "KREMLIN",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 30.19
+ },
+ "4293834544": {
+  "name": "HERMELIN",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 16.72
+ },
+ "4259264496": {
+  "name": "NEW MEXICO",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 22.4
+ },
+ "4182718256": {
+  "name": "GNEISENAU",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 26.72
+ },
+ "3340678608": {
+  "name": "[MOSKVA]",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.55
+ },
+ "4285445840": {
+  "name": "MOGAMI",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.37
+ },
+ "4181636944": {
+  "name": "CHARLES MARTEL",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 26.0
+ },
+ "4267620048": {
+  "name": "IWAKI A",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 16.59
+ },
+ "3340678960": {
+  "name": "[HINDENBURG]",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.0
+ },
+ "4290753808": {
+  "name": "THE GREAT GORGON",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4185797840": {
+  "name": "SHENYANG",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 14.81
+ },
+ "4292785616": {
+  "name": "DIANA",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4280169744": {
+  "name": "CARNAL",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.67
+ },
+ "3530504176": {
+  "name": "GEORGIA",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 33.98
+ },
+ "4287542992": {
+  "name": "AOBA",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 21.1
+ },
+ "4178523856": {
+  "name": "SATSUMA",
+  "species": "Battleship",
+  "level": 11,
+  "visibility_coef": 38.0
+ },
+ "4289607376": {
+  "name": "MUTSUKI (OLD)",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 13.82
+ },
+ "3749623248": {
+  "name": "STALINGRAD #2",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 27.56
+ },
+ "4291737584": {
+  "name": "ALBANY",
+  "species": "Cruiser",
+  "level": 2,
+  "visibility_coef": 13.18
+ },
+ "4268635408": {
+  "name": "FANGBLADE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "4185863984": {
+  "name": "KAISER",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 27.94
+ },
+ "4079925200": {
+  "name": "HAWKINS",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 21.2
+ },
+ "3315513040": {
+  "name": "[ZA\u014c]",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 25.0
+ },
+ "4186847184": {
+  "name": "VALKYRIE",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 16.17
+ },
+ "3765352144": {
+  "name": "YAHAGI",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 20.02
+ },
+ "4181637104": {
+  "name": "BALTIMORE",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.25
+ },
+ "3551409616": {
+  "name": "NEUSTRASHIMY",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.57
+ },
+ "4179605488": {
+  "name": "MIDWAY",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4075763504": {
+  "name": "P.\u00a0RUPPRECHT",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 27.42
+ },
+ "4286461200": {
+  "name": "STEEL RAT",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 16.28
+ },
+ "4181669680": {
+  "name": "BISMARCK",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 28.58
+ },
+ "4187894992": {
+  "name": "LONGJIANG",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 13.43
+ },
+ "4182718288": {
+  "name": "LYON",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 30.32
+ },
+ "3761190096": {
+  "name": "BAJIE",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 36.0
+ },
+ "4280202960": {
+  "name": "KITAKAMI",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 18.98
+ },
+ "4292785424": {
+  "name": "SCARAB",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 24.33
+ },
+ "4188976976": {
+  "name": "BOUGAINVILLE",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 15.76
+ },
+ "3762239280": {
+  "name": "ODIN",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 26.15
+ },
+ "3767449040": {
+  "name": "OLEG",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 16.12
+ },
+ "3676223184": {
+  "name": "YOSHINO B",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 30.0
+ },
+ "4286461936": {
+  "name": "BENSON",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.16
+ },
+ "4183766768": {
+  "name": "ANDREA DORIA",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 23.91
+ },
+ "4287542544": {
+  "name": "AURORA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 15.0
+ },
+ "4074682320": {
+  "name": "GOLIATH",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.93
+ },
+ "4287543280": {
+  "name": "CLEVELAND (OLD)",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 20.88
+ },
+ "4178491376": {
+  "name": "ANNAPOLIS",
+  "species": "Cruiser",
+  "level": 11,
+  "visibility_coef": 23.36
+ },
+ "3750704336": {
+  "name": "WUJING",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 32.98
+ },
+ "4181604176": {
+  "name": "LE FANTASQUE",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.66
+ },
+ "4287575312": {
+  "name": "ALLDESTROYER",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 29.59
+ },
+ "4182685648": {
+  "name": "FIJI",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.72
+ },
+ "3447600976": {
+  "name": "L'EFFRONT\u00c9",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.92
+ },
+ "4183734256": {
+  "name": "PENSACOLA",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 21.91
+ },
+ "4183209776": {
+  "name": "U-69",
+  "species": "Submarine",
+  "level": 6,
+  "visibility_coef": 13.4
+ },
+ "3332290256": {
+  "name": "TONE 2",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.64
+ },
+ "4185798608": {
+  "name": "WAKEFUL",
+  "species": "Destroyer",
+  "level": 4,
+  "visibility_coef": 17.48
+ },
+ "3761157968": {
+  "name": "CARNOT",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 30.76
+ },
+ "3340711888": {
+  "name": "[CONQUEROR]",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 32.38
+ },
+ "3741267792": {
+  "name": "CHAMPAGNE",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.23
+ },
+ "4184749264": {
+  "name": "JIANWEI",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.34
+ },
+ "3765319120": {
+  "name": "OKHOTNIK",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 14.25
+ },
+ "4285511376": {
+  "name": "RY\u016aJ\u014c (OLD)",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "4278072592": {
+  "name": "SEA DEVIL",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 20.6
+ },
+ "3760109520": {
+  "name": "PLYMOUTH",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 20.36
+ },
+ "4180621296": {
+  "name": "MINNESOTA",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 32.5
+ },
+ "3751720400": {
+  "name": "LAZO",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 24.06
+ },
+ "3445536464": {
+  "name": "ZA\u014c P",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "3763254608": {
+  "name": "NUEVE DE JULIO",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 19.51
+ },
+ "3763287760": {
+  "name": "ASHITAKA",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.04
+ },
+ "4288591120": {
+  "name": "NORMA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.21
+ },
+ "3753818064": {
+  "name": "LONDON",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 22.75
+ },
+ "4181604144": {
+  "name": "Z-23",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.28
+ },
+ "4280170192": {
+  "name": "TACHIBANA L",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 12.75
+ },
+ "3751687376": {
+  "name": "FENYANG",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.26
+ },
+ "3730782192": {
+  "name": "CONSTELLATION",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 25.25
+ },
+ "4282300400": {
+  "name": "PENSACOLA (OLD)",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.91
+ },
+ "4180587984": {
+  "name": "DM. DONSKOI",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 24.57
+ },
+ "4184815408": {
+  "name": "K\u00d6NIG",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.34
+ },
+ "4291770064": {
+  "name": "MY\u014cGI",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 25.35
+ },
+ "4188976432": {
+  "name": "GRYF",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 17.48
+ },
+ "3545183952": {
+  "name": "HSF HIEI",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "4277090288": {
+  "name": "MONTANA",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.0
+ },
+ "4182684880": {
+  "name": "CHUMPHON",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 20.32
+ },
+ "4182652112": {
+  "name": "GADJAH MADA",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.62
+ },
+ "4075730896": {
+  "name": "DRAKE",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 22.78
+ },
+ "3753850320": {
+  "name": "NOVOROSSIYSK",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 22.9
+ },
+ "3969824208": {
+  "name": "PETROPAVLOVSK",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 25.43
+ },
+ "4247697392": {
+  "name": "MARBLEHEAD L",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3760142288": {
+  "name": "THUNDERER",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 32.38
+ },
+ "3761157936": {
+  "name": "SIEGFRIED",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 28.74
+ },
+ "4078909232": {
+  "name": "MACKENSEN",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 21.68
+ },
+ "3759585264": {
+  "name": "GATO",
+  "species": "Submarine",
+  "level": 10,
+  "visibility_coef": 28.4
+ },
+ "3338548944": {
+  "name": "[SHIMAKAZE]",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 20.6
+ },
+ "4179539792": {
+  "name": "HENRI IV",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.03
+ },
+ "4279220208": {
+  "name": "MIDWAY (OLD)",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4283381456": {
+  "name": "MIKASA",
+  "species": "Battleship",
+  "level": 2,
+  "visibility_coef": 14.5
+ },
+ "4188976400": {
+  "name": "VALKYRIE",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 15.0
+ },
+ "3667834576": {
+  "name": "ATAGO B",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 22.19
+ },
+ "4183766992": {
+  "name": "QUEEN ELIZABETH",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 23.79
+ },
+ "3543054032": {
+  "name": "S. DRAGON",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "3753817456": {
+  "name": "MYSORE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 20.02
+ },
+ "3751720912": {
+  "name": "TIGER '59",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 21.13
+ },
+ "4288657392": {
+  "name": "INDEPENDENCE (OLD)",
+  "species": "AirCarrier",
+  "level": 6,
+  "visibility_coef": 20.0
+ },
+ "3340711728": {
+  "name": "[G. KURF\u00dcRST]",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 30.0
+ },
+ "3741235184": {
+  "name": "CONGRESS",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 28.0
+ },
+ "3363780304": {
+  "name": "RAGNAROK",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.04
+ },
+ "4077795024": {
+  "name": "SHIRATSUYU",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 16.47
+ },
+ "4179572528": {
+  "name": "G.\u00a0KURF\u00dcRST",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 30.0
+ },
+ "3541972688": {
+  "name": "AL YUKIKAZE",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.64
+ },
+ "4181702352": {
+  "name": "SH\u014cKAKU",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4078843344": {
+  "name": "GNEVNY",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.59
+ },
+ "4183701296": {
+  "name": "GAEDE",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 16.31
+ },
+ "4289672464": {
+  "name": "VARG",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 28.58
+ },
+ "4278105360": {
+  "name": "THORNRIDGE",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "4281284304": {
+  "name": "AMAGI",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.04
+ },
+ "3655317296": {
+  "name": "M.\u00a0IMMELMANN",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "3340744656": {
+  "name": "[AUDACIOUS]",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "3334420176": {
+  "name": "ISE 3",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 28.75
+ },
+ "3335501808": {
+  "name": "[MIDWAY]",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4183701328": {
+  "name": "GU\u00c9PARD",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 18.97
+ },
+ "4179605200": {
+  "name": "HAKURY\u016a",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "3669964624": {
+  "name": "DUNKERQUE\u00a0B",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 29.87
+ },
+ "3445569520": {
+  "name": "MONTANA P",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4188976880": {
+  "name": "ERITREA",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 15.12
+ },
+ "3768465392": {
+  "name": "SMITH",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 13.23
+ },
+ "3761157584": {
+  "name": "KRONSHTADT",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 27.0
+ },
+ "4181603632": {
+  "name": "\u00d6LAND",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.8
+ },
+ "3751753520": {
+  "name": "BRANDENBURG",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.69
+ },
+ "3769513264": {
+  "name": "B\u0141YSKAWICA",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "3730781648": {
+  "name": "V. I. LENIN",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 26.38
+ },
+ "4186879824": {
+  "name": "FRIANT",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 20.27
+ },
+ "4185896944": {
+  "name": "LANGLEY",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "4182685136": {
+  "name": "SHCHORS",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 23.81
+ },
+ "4282267344": {
+  "name": "SHIMAKAZE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 20.6
+ },
+ "4293899536": {
+  "name": "LUFTWAFFE",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 0.01
+ },
+ "4273911792": {
+  "name": "DES MOINES",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 23.0
+ },
+ "4292851408": {
+  "name": "H\u014cSH\u014c (OLD)",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "3764270288": {
+  "name": "ANSHAN",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.58
+ },
+ "3457103568": {
+  "name": "ARP KIRISHIMA",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "4291049456": {
+  "name": "LIBERTY",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 0
+ },
+ "3550360880": {
+  "name": "RAGNAR",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.1
+ },
+ "3752769328": {
+  "name": "WEIMAR",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 19.2
+ },
+ "3730748880": {
+  "name": "P. BAGRATION",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.78
+ },
+ "4179604944": {
+  "name": "NAKHIMOV",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4276041424": {
+  "name": "YAMATO",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 38.0
+ },
+ "4187895056": {
+  "name": "WHIRLWIND",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "3760076784": {
+  "name": "SOMERS",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.31
+ },
+ "3439605008": {
+  "name": "BOGUE",
+  "species": "Auxiliary",
+  "level": 5,
+  "visibility_coef": 20.0
+ },
+ "3553539792": {
+  "name": "ARP ASHIGARA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "4256085712": {
+  "name": "HASHIDATE",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 14.0
+ },
+ "4179506480": {
+  "name": "HALLAND",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 18.69
+ },
+ "4269717488": {
+  "name": "PHOENIX",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 19.71
+ },
+ "4289705232": {
+  "name": "HELLCARRIER",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 0
+ },
+ "3762173136": {
+  "name": "LOYANG",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.16
+ },
+ "3742316496": {
+  "name": "DUKE OF YORK",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 25.08
+ },
+ "3720263120": {
+  "name": "BAGRATION",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.78
+ },
+ "4181702448": {
+  "name": "A. PARSEVAL",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3762173936": {
+  "name": "KIDD",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.85
+ },
+ "4187895248": {
+  "name": "STOROZHEVOI",
+  "species": "Destroyer",
+  "level": 2,
+  "visibility_coef": 14.96
+ },
+ "4189009168": {
+  "name": "AVENGER",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "4290754544": {
+  "name": "LANGLEY (OLD)",
+  "species": "AirCarrier",
+  "level": 4,
+  "visibility_coef": 20.0
+ },
+ "3761125104": {
+  "name": "PAOLO EMILIO",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 22.25
+ },
+ "3762272240": {
+  "name": "ENTERPRISE (OLD)",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "3762173744": {
+  "name": "Z-39",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 16.28
+ },
+ "3541972176": {
+  "name": "SHIP SMASHA",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.26
+ },
+ "3750704880": {
+  "name": "GIUSEPPE VERDI",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 29.61
+ },
+ "4281317360": {
+  "name": "ESSEX (OLD)",
+  "species": "AirCarrier",
+  "level": 9,
+  "visibility_coef": 20.0
+ },
+ "4183209968": {
+  "name": "CACHALOT",
+  "species": "Submarine",
+  "level": 6,
+  "visibility_coef": 16.5
+ },
+ "4181669840": {
+  "name": "MONARCH",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 25.58
+ },
+ "4183766864": {
+  "name": "NORMANDIE",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 26.83
+ },
+ "4277024016": {
+  "name": "LANCET",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 0
+ },
+ "4180588528": {
+  "name": "BUFFALO",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 23.0
+ },
+ "4183734000": {
+  "name": "TRENTO",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 23.48
+ },
+ "4076746544": {
+  "name": "G. J. MAERKER",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.64
+ },
+ "4284463088": {
+  "name": "RANGER (OLD)",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 20.0
+ },
+ "4075730928": {
+  "name": "SEATTLE",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 21.9
+ },
+ "3522082512": {
+  "name": "ARP NACHI",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "3751687984": {
+  "name": "Z-35",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.61
+ },
+ "3762205904": {
+  "name": "IRIAN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.69
+ },
+ "4180555056": {
+  "name": "\u00d6STERG\u00d6TLAND",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.41
+ },
+ "3655251664": {
+  "name": "KITAKAMI",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 18.98
+ },
+ "4289640144": {
+  "name": "FURUTAKA",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 18.86
+ },
+ "3760076496": {
+  "name": "HAYATE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 17.19
+ },
+ "4183700688": {
+  "name": "FUSHUN",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.58
+ },
+ "4184782288": {
+  "name": "KIROV (OLD)",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 22.8
+ },
+ "4186912208": {
+  "name": "KNYAZ SUVOROV",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 20.88
+ },
+ "3765384656": {
+  "name": "OKT.\u00a0REVOLUTSIYA",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 23.38
+ },
+ "3767449584": {
+  "name": "CHARLESTON",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 15.66
+ },
+ "4181603792": {
+  "name": "TASHKENT (OLD)",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 17.14
+ },
+ "3741202128": {
+  "name": "HSF HAREKAZE II",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 16.64
+ },
+ "4186879792": {
+  "name": "KOLBERG",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 14.04
+ },
+ "3340711920": {
+  "name": "CONNECTICUT",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 34.2
+ },
+ "4269028624": {
+  "name": "ARONIA",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4289606928": {
+  "name": "BLUE ASTER",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.74
+ },
+ "3765384944": {
+  "name": "GIULIO CESARE",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 22.9
+ },
+ "3655251920": {
+  "name": "GIBRALTAR",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 23.45
+ },
+ "4293834736": {
+  "name": "ERIE",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 18.42
+ },
+ "4185831216": {
+  "name": "KARLSRUHE",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 17.27
+ },
+ "3751786288": {
+  "name": "GRAF ZEPPELIN",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4292752656": {
+  "name": "GHOUL",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.16
+ },
+ "4185864016": {
+  "name": "COURBET",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 23.67
+ },
+ "4074681808": {
+  "name": "A.\u00a0NEVSKY",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 26.09
+ },
+ "4185863920": {
+  "name": "D.\u00a0ALIGHIERI",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 18.97
+ },
+ "4075697968": {
+  "name": "F.\u00a0SCHULTZ",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.5
+ },
+ "4283414224": {
+  "name": "HIRY\u016a (OLD)",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 20.0
+ },
+ "4186912560": {
+  "name": "NASSAU",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.61
+ },
+ "4272829712": {
+  "name": "RUMBLE",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.64
+ },
+ "3763288016": {
+  "name": "HOOD",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 24.43
+ },
+ "4186846416": {
+  "name": "PHRA RUANG",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 13.62
+ },
+ "4182652624": {
+  "name": "AKATSUKI",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 15.62
+ },
+ "3760174896": {
+  "name": "W. VOSS",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4186912592": {
+  "name": "TURENNE",
+  "species": "Battleship",
+  "level": 3,
+  "visibility_coef": 16.07
+ },
+ "3743364816": {
+  "name": "ISE",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 28.75
+ },
+ "3554621136": {
+  "name": "ARP KIRISHIMA",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 28.52
+ },
+ "4184749360": {
+  "name": "VISBY",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 16.81
+ },
+ "4282365936": {
+  "name": "LEXINGTON (OLD)",
+  "species": "AirCarrier",
+  "level": 8,
+  "visibility_coef": 20.0
+ },
+ "4288624624": {
+  "name": "NEW YORK",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 26.0
+ },
+ "4277417232": {
+  "name": "GOLIATH",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "3730782032": {
+  "name": "FLANDRE",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.23
+ },
+ "3532568272": {
+  "name": "E. DRAGON",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.53
+ },
+ "4075730384": {
+  "name": "RIGA",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 25.19
+ },
+ "4184782608": {
+  "name": "CELEBES",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 20.34
+ },
+ "4282299664": {
+  "name": "RUST NIGHTFALL",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 0
+ },
+ "3761190608": {
+  "name": "MUSASHI",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 37.0
+ },
+ "3741267952": {
+  "name": "ALABAMA VL",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 30.0
+ },
+ "3764303056": {
+  "name": "HUANGHE",
+  "species": "Cruiser",
+  "level": 6,
+  "visibility_coef": 19.1
+ },
+ "3558094544": {
+  "name": "ARP I-401",
+  "species": "Auxiliary",
+  "level": 11,
+  "visibility_coef": 0
+ },
+ "3448747280": {
+  "name": "RANGER",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 20.0
+ },
+ "4286526736": {
+  "name": "LEVIATHAN",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 31.03
+ },
+ "3752802000": {
+  "name": "HY\u016aGA",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 28.65
+ },
+ "4188976592": {
+  "name": "ORLAN",
+  "species": "Cruiser",
+  "level": 1,
+  "visibility_coef": 16.46
+ },
+ "3763287856": {
+  "name": "SCHARNHORST",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.08
+ },
+ "4186879440": {
+  "name": "BOGATYR",
+  "species": "Cruiser",
+  "level": 3,
+  "visibility_coef": 16.86
+ },
+ "4185831152": {
+  "name": "GIUSSANO",
+  "species": "Cruiser",
+  "level": 4,
+  "visibility_coef": 21.58
+ },
+ "4076778960": {
+  "name": "TALLINN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 24.44
+ },
+ "4065212112": {
+  "name": "KITAKAZE",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.26
+ },
+ "4180621040": {
+  "name": "LEPANTO",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 28.3
+ },
+ "4187927824": {
+  "name": "GALE",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 15.0
+ },
+ "4181604048": {
+  "name": "AKIZUKI",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.26
+ },
+ "3666818896": {
+  "name": "JEAN BART B",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 33.23
+ },
+ "3764270832": {
+  "name": "LEONE",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.8
+ },
+ "3247388464": {
+  "name": "HANNOVER (OLD)",
+  "species": "Battleship",
+  "level": 11,
+  "visibility_coef": 30.0
+ },
+ "3761157328": {
+  "name": "DALIAN",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 20.02
+ },
+ "4292818192": {
+  "name": "RASPUTIN",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 20.19
+ },
+ "3668916016": {
+  "name": "SCHARNHORST B",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 27.08
+ },
+ "4183209424": {
+  "name": "S-1",
+  "species": "Submarine",
+  "level": 6,
+  "visibility_coef": 14.7
+ },
+ "3766368080": {
+  "name": "SIROCO",
+  "species": "Destroyer",
+  "level": 5,
+  "visibility_coef": 17.48
+ },
+ "3333404368": {
+  "name": "[HAKURY\u016a]",
+  "species": "AirCarrier",
+  "level": 10,
+  "visibility_coef": 20.0
+ },
+ "4180555728": {
+  "name": "JUTLAND",
+  "species": "Destroyer",
+  "level": 9,
+  "visibility_coef": 18.35
+ },
+ "3750672368": {
+  "name": "TULSA",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 21.05
+ },
+ "4180621264": {
+  "name": "LION",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 29.0
+ },
+ "3762206672": {
+  "name": "CHESHIRE",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 23.64
+ },
+ "4249105680": {
+  "name": "MEDWAY QUEEN",
+  "species": "Auxiliary",
+  "level": 2,
+  "visibility_coef": 0
+ },
+ "4279186704": {
+  "name": "LOBSTER-EYED",
+  "species": "Battleship",
+  "level": 10,
+  "visibility_coef": 15.0
+ },
+ "3555670000": {
+  "name": "TEXAS",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 22.87
+ },
+ "3764336336": {
+  "name": "MUTSU",
+  "species": "Battleship",
+  "level": 6,
+  "visibility_coef": 27.56
+ },
+ "3247388368": {
+  "name": "SATSUMA (OLD)",
+  "species": "Battleship",
+  "level": 11,
+  "visibility_coef": 38.0
+ },
+ "4182652208": {
+  "name": "SK\u00c5NE",
+  "species": "Destroyer",
+  "level": 7,
+  "visibility_coef": 17.8
+ },
+ "4272895696": {
+  "name": "IZUMO",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 31.0
+ },
+ "4286527184": {
+  "name": "ISHIZUCHI",
+  "species": "Battleship",
+  "level": 4,
+  "visibility_coef": 18.62
+ },
+ "3666786288": {
+  "name": "ALASKA B",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 28.0
+ },
+ "3750672176": {
+  "name": "\u00c4GIR",
+  "species": "Cruiser",
+  "level": 9,
+  "visibility_coef": 28.74
+ },
+ "4076745936": {
+  "name": "SILIWANGI",
+  "species": "Destroyer",
+  "level": 8,
+  "visibility_coef": 18.35
+ },
+ "4184815568": {
+  "name": "IRON DUKE",
+  "species": "Battleship",
+  "level": 5,
+  "visibility_coef": 23.27
+ },
+ "4186846512": {
+  "name": "ROMULUS",
+  "species": "Destroyer",
+  "level": 3,
+  "visibility_coef": 15.61
+ },
+ "4288591856": {
+  "name": "ATLANTA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 21.32
+ },
+ "4184782672": {
+  "name": "\u00c9MILE BERTIN",
+  "species": "Cruiser",
+  "level": 5,
+  "visibility_coef": 21.13
+ },
+ "3763320528": {
+  "name": "KAGA (OLD)",
+  "species": "AirCarrier",
+  "level": 7,
+  "visibility_coef": 20.0
+ },
+ "4182685424": {
+  "name": "ZARA",
+  "species": "Cruiser",
+  "level": 7,
+  "visibility_coef": 22.08
+ },
+ "3552524272": {
+  "name": "ALABAMA ST",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 30.0
+ },
+ "4074649424": {
+  "name": "MARCEAU",
+  "species": "Destroyer",
+  "level": 10,
+  "visibility_coef": 19.64
+ },
+ "4288623888": {
+  "name": "PARIS",
+  "species": "Battleship",
+  "level": 7,
+  "visibility_coef": 34.4
+ },
+ "4181636304": {
+  "name": "HARBIN",
+  "species": "Cruiser",
+  "level": 8,
+  "visibility_coef": 20.02
+ },
+ "3762239184": {
+  "name": "KII",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 27.94
+ },
+ "4183700784": {
+  "name": "V\u00c4STER\u00c5S",
+  "species": "Destroyer",
+  "level": 6,
+  "visibility_coef": 17.48
+ },
+ "3445536752": {
+  "name": "AUSTIN",
+  "species": "Cruiser",
+  "level": 10,
+  "visibility_coef": 21.08
+ },
+ "3761190704": {
+  "name": "POMMERN",
+  "species": "Battleship",
+  "level": 9,
+  "visibility_coef": 28.73
+ },
+ "4181669712": {
+  "name": "RICHELIEU",
+  "species": "Battleship",
+  "level": 8,
+  "visibility_coef": 33.51
+ }
+}

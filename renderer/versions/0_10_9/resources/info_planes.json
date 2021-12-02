@@ -1,0 +1,2238 @@
+{
+ "4293754704": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292279568": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4076764880": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3768549168": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3762126544": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3864887280": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4287463120": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3440213264": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4241457136": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3864886992": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285431504": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3346956112": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4293820368": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4286545904": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4282843120": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4292705552": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4291231536": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3447553840": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3454959600": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4179460080": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292837328": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287036880": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3348004560": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3256778736": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3657400016": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3751772144": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4292706288": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134544": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3764355024": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4288086000": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4284939984": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4181688304": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4289560400": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4283334640": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3556605744": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4240407824": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4179591152": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4286479632": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3295510320": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4272783152": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4240408560": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3762192336": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4285365520": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3349053136": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4280123376": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4291067152": {
+  "species": "Auxiliary",
+  "ammo_type": "AP"
+ },
+ "4288643024": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4290609136": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4183785456": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3343318832": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4291657552": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3349053424": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4293885904": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3447553744": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4076830672": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3348004848": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4291722960": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4289625360": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4288511824": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292280304": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4293328720": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3454894064": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4279697392": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4074602480": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289691344": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4289560368": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3866984432": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293754832": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3349118768": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3762192176": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3769532208": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4290740176": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3559750864": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4078927568": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3443490064": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4289626096": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4290740208": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4291722512": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3351150544": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4292771792": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4286480144": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4076830416": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4272783344": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285431792": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3659431632": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4286414576": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3638460112": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3646783184": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292706000": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3768548816": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3441261840": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134352": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4280123088": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4179460048": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4286480080": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3346890000": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3648880336": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293754672": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3348987344": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3557653968": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293754064": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3558833616": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4292115728": {
+  "species": "Auxiliary",
+  "ammo_type": "AP"
+ },
+ "3344858576": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4286545616": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4183785424": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3348790736": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4287594192": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3295575856": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3638525648": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3297410864": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4291231568": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4281302736": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3978984912": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4076699632": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4287037232": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4283334352": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4078862320": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3664608976": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4278648816": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4293885936": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4292706096": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285988848": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3655303152": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287463408": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292771536": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3558768432": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3346890544": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4078796496": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4078927824": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3768418128": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3349053392": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4287528944": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4188962800": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3555556816": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4276977616": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4185751248": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290608944": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3871178736": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3343318288": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3297738544": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4076699344": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4278025936": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293328336": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3768418096": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "3866984144": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4183654352": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3348004816": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4181557200": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4284383216": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3348004688": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3348987696": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "3345841968": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289626064": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3769597776": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4288511952": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3869081296": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762257872": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3342761968": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3760095216": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4289560560": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292836624": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287528720": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4292279760": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4289691600": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3638394576": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3764223952": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292280080": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4288511984": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3864887248": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762126640": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3758981104": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290608976": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290608848": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4286480336": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4078796784": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293820112": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4290608912": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288577232": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4282285776": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4286414544": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3294461744": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4292706128": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292280112": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4265443312": {
+  "species": "Fighter",
+  "ammo_type": null
+ },
+ "4076765168": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3659497168": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4284448016": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4288511760": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3445587216": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4291231472": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3559554512": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4278025680": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285431056": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4078862032": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3296362288": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "3765272368": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4281171952": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3558702896": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4292837072": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3559881936": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3297607472": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4269636880": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3345907696": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3298656048": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4283268816": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3349839312": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4291788784": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3344858832": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4282351600": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4291657488": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4262297584": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134288": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3341713392": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4181688272": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3769466704": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3445521680": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4288511696": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4291723056": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3344858864": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4284317680": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4183785168": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4293819664": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4078862288": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4281303024": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4284448464": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4187847952": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3348987888": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288642768": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4291231184": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3979247056": {
+  "species": "Dive",
+  "ammo_type": null
+ },
+ "4269637616": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3437068272": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3350167344": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4181557232": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3445456144": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3767500592": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4283399888": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4289560336": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3971842032": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3969744880": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4074733520": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4293820208": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4185882320": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4181688016": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3444473104": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3979247408": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3763175376": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3646914256": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4293164304": {
+  "species": "Auxiliary",
+  "ammo_type": null
+ },
+ "4292706032": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4279074512": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4183654096": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3298721584": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3349053232": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3557785040": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3636362960": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4278026224": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285988816": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4076830704": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287037136": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4290183120": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3296624432": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4288511792": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3869081584": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290183152": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4284940080": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3298459440": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4076699600": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4182179088": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4290182608": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3751641072": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4283269104": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4281236752": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4293328592": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4285365968": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3769597392": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4282351312": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4183719920": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4291788048": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3764289488": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4181622736": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3760160752": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3762257616": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4276976848": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762126832": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292706064": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4181556944": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3348070384": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3297673008": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4179459792": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3649011408": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3636428496": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4286414832": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4284448752": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4275929040": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4287463376": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290674672": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4291788752": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4293328240": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3762257712": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287036688": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3869081552": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4078796752": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4287528656": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4183719632": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4288085840": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4185817072": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3346955984": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3761143792": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4271734576": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4273831888": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134320": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4285988304": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4178477040": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3350102000": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4282219984": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4273831632": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4283268560": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293328880": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4272783312": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3757932528": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292837360": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3557719504": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3343810544": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3559817008": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4288511728": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285497040": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4288643056": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4270685904": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4284382928": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3659366096": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3655237616": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4293328656": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4293754864": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4291723248": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3340664816": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4290674384": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4293754608": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4278026192": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3969875664": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3443358992": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3293413168": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4291657424": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285497328": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3768221136": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "3979312592": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4078927856": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3769597744": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3768417744": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4187979024": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4183654384": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3769466672": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4289559824": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3979312944": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4185882608": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3296690160": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4290609104": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3769269712": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4293754576": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4275929072": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290674480": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3344858320": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4276551664": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4283891696": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4288085712": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3344858960": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4284382992": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4279074800": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4271734768": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085744": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3761209328": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3350167536": {
+  "species": "Bomber",
+  "ammo_type": null
+ },
+ "4287594448": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4282842384": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4285988560": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4286480368": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3349053264": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3298787120": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3347938768": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3558702544": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762257904": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4289560272": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290182896": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3346956240": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4074602448": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4179525616": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4291231504": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4274880464": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4185751504": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3447554032": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762126800": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4281171664": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4264394000": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292280048": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4291657456": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289133776": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3344792848": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293754640": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134416": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3344793392": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290182960": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3871178448": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3351150576": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4291657520": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3344859120": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3760029680": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4179590864": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4183719888": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3350035920": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3350036272": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4287037392": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4288511248": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3444407568": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4074667984": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4291657680": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3558702288": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4290182928": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4282220528": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4281237488": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3769270096": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "3559751120": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4281171408": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289559760": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4074602192": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3558505936": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "3292364592": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4292771824": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3439164688": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4280745968": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4287594480": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3657268944": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085456": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3350101808": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3769532240": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4293328144": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4292706256": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3344858928": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4179591120": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4179525328": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4292837168": {
+  "species": "Bomber",
+  "ammo_type": "torpedo_deepwater"
+ },
+ "4291657712": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3979181520": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293885648": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4074733264": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3657334480": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4270686192": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4293328848": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3979181872": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4181622480": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4288577520": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3347939120": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4074668016": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4268589040": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3444538640": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3769466320": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3636297424": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3871178704": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3762192080": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3559751472": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4074733552": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4290182864": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4239359984": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3349118416": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4185817040": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4074667728": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4293885200": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4293885744": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287528912": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4288577488": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4293328624": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4279074256": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085968": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4291723216": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4290739920": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4292280016": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3648945872": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3559816400": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3442310416": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4076765136": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4181622768": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3978132944": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4282285840": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4286545872": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4287037168": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3349610288": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4264394736": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289625808": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3557653712": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289560528": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4285366256": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4292771632": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4281794544": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4293328688": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4263346160": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3346956272": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4277600240": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4287037424": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4185751536": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3751706608": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4286414800": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3767435056": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4292705648": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3665657552": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4291788496": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3349609744": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3663560400": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085808": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4289691632": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3558833968": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4276977648": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3350166992": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4283891408": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4271734480": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085200": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4289134576": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4283334416": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3768418288": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4284317392": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4284939728": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4290674640": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3559882544": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3646848720": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4280122832": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3295313712": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "4283400176": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3350101712": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4285988656": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3559882192": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "3557457360": {
+  "species": "Skip",
+  "ammo_type": "HE"
+ },
+ "3350101968": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "3762192368": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "4275928784": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4289134032": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "3767369520": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4179525584": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3866984400": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3350101840": {
+  "species": "Dive",
+  "ammo_type": "depthcharge"
+ },
+ "4285431568": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "4289134384": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4291231440": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4293820400": {
+  "species": "Dive",
+  "ammo_type": "HE"
+ },
+ "3556605392": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3768483632": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3447554000": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4276977360": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4288085776": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4290182992": {
+  "species": "Scout",
+  "ammo_type": null
+ },
+ "4290608880": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4274880208": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4282286064": {
+  "species": "Dive",
+  "ammo_type": null
+ },
+ "4289560304": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "3767369168": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4185816784": {
+  "species": "Dive",
+  "ammo_type": "AP"
+ },
+ "3978133296": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "3766320944": {
+  "species": "Fighter",
+  "ammo_type": "AP"
+ },
+ "4185882576": {
+  "species": "Bomber",
+  "ammo_type": "torpedo"
+ },
+ "4286414096": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ },
+ "4274879760": {
+  "species": "Fighter",
+  "ammo_type": "HE"
+ }
+}

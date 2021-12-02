@@ -1,0 +1,60 @@
+<space.settings>
+	<bounds
+			minX="-10"
+			maxX="9"
+			minY="-10"
+			maxY="9" />
+	<terrain>
+		<version>	200	</version>
+		<enabled>	false	</enabled>
+		<heightMapSize>	256	</heightMapSize>
+		<normalMapSize>	256	</normalMapSize>
+		<blendMapSize>	256	</blendMapSize>
+		<detailUVScale>
+			<LTU_NE_15_01_normal.tga>	4.0000	</LTU_NE_15_01_normal.tga>
+			<LTU_NE_15_02_normal.tga>	5.0000	</LTU_NE_15_02_normal.tga>
+			<LTU_NE_15_03_normal.tga>	18.0000	</LTU_NE_15_03_normal.tga>
+			<LTU_NE_15_04_normal.tga>	3.0000	</LTU_NE_15_04_normal.tga>
+			<LTU_NE_15_06_normal.tga>	4.0000	</LTU_NE_15_06_normal.tga>
+			<LTU_NE_15_05_normal.tga>	4.0000	</LTU_NE_15_05_normal.tga>
+			<LTC_NE_15_01_normal.tga>	1.0000	</LTC_NE_15_01_normal.tga>
+			<LTR_NE_15_01_normal.tga>	1.0000	</LTR_NE_15_01_normal.tga>
+			<LTU_NE_15_07_normal.tga>	2.0000	</LTU_NE_15_07_normal.tga>
+			<LTU_NE_15_08_normal.tga>	4.0000	</LTU_NE_15_08_normal.tga>
+			<LTG_NE_15_02_normal.tga>	4.0000	</LTG_NE_15_02_normal.tga>
+		</detailUVScale>
+		<lodInfo>
+			<startBias>	0.8000	</startBias>
+			<endBias>	0.9900	</endBias>
+			<lodTextureStart>	5000.0000	</lodTextureStart>
+			<lodTextureDistance>	5000.0000	</lodTextureDistance>
+			<blendPreloadDistance>	5000.0000	</blendPreloadDistance>
+			<lodNormalStart>	10000.0000	</lodNormalStart>
+			<lodNormalDistance>	100.0000	</lodNormalDistance>
+			<normalPreloadDistance>	100.0000	</normalPreloadDistance>
+			<defaultHeightMapLod>	2	</defaultHeightMapLod>
+			<detailHeightMapDistance>	500.0000	</detailHeightMapDistance>
+			<lodDistances>
+				<distance0>	0.0000	</distance0>
+				<distance1>	0.0000	</distance1>
+				<distance2>	90.0000	</distance2>
+				<distance3>	300.0000	</distance3>
+				<distance4>	1900.0000	</distance4>
+				<distance5>	2000.0000	</distance5>
+				<distance6>	4300.0000	</distance6>
+			</lodDistances>
+			<server>
+				<heightMapLod>	0	</heightMapLod>
+			</server>
+		</lodInfo>
+	</terrain>
+	<startPosition>	199.419876 50.369354 -94.909889	</startPosition>
+	<startDirection>	0.000488 0.449986 2.248756	</startDirection>
+	<UnprocessedData>
+		<shadows>	false	</shadows>
+		<heightMap>	true	</heightMap>
+		<miniMap>	true	</miniMap>
+		<saved>	false	</saved>
+	</UnprocessedData>
+	<navmeshGenerator>	navgen	</navmeshGenerator>
+</space.settings>

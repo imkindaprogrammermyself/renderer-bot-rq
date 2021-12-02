@@ -1,0 +1,63 @@
+<space.settings>
+	<bounds
+			minX="-7"
+			maxX="6"
+			minY="-7"
+			maxY="6" />
+	<terrain>
+		<version>	200	</version>
+		<enabled>	false	</enabled>
+		<heightMapSize>	256	</heightMapSize>
+		<normalMapSize>	256	</normalMapSize>
+		<blendMapSize>	256	</blendMapSize>
+		<detailUVScale>
+			<LTB_NA_17_01_normal.tga>	2.0000	</LTB_NA_17_01_normal.tga>
+			<LTR_NA_17_03_normal.tga>	1.0000	</LTR_NA_17_03_normal.tga>
+			<LTR_NE_10_01_normal.tga>	16.8000	</LTR_NE_10_01_normal.tga>
+			<LTS_NE_17_01_normal.tga>	23.8000	</LTS_NE_17_01_normal.tga>
+			<LTR_NE_20_01_normal.tga>	1.0000	</LTR_NE_20_01_normal.tga>
+			<LTS_NE_10_01_normal.tga>	4.0000	</LTS_NE_10_01_normal.tga>
+			<LTG_NE_20_02_normal.tga>	1.0000	</LTG_NE_20_02_normal.tga>
+			<LTG_NE_20_01_normal.tga>	1.0000	</LTG_NE_20_01_normal.tga>
+			<grass_lush_normal.tga>	5.0000	</grass_lush_normal.tga>
+			<rock_Jagged_normal.tga>	1.0000	</rock_Jagged_normal.tga>
+			<sand_beach_normal.tga>	0.5000	</sand_beach_normal.tga>
+			<grass_normal.tga>	1.0000	</grass_normal.tga>
+			<grass_br_normal.tga>	5.0000	</grass_br_normal.tga>
+			<rock_br_normal.tga>	1.0000	</rock_br_normal.tga>
+		</detailUVScale>
+		<lodInfo>
+			<startBias>	0.8000	</startBias>
+			<endBias>	0.9900	</endBias>
+			<lodTextureStart>	5000.0000	</lodTextureStart>
+			<lodTextureDistance>	5000.0000	</lodTextureDistance>
+			<blendPreloadDistance>	5000.0000	</blendPreloadDistance>
+			<lodNormalStart>	100000.0000	</lodNormalStart>
+			<lodNormalDistance>	10000.0000	</lodNormalDistance>
+			<normalPreloadDistance>	1000.0000	</normalPreloadDistance>
+			<defaultHeightMapLod>	2	</defaultHeightMapLod>
+			<detailHeightMapDistance>	5000.0000	</detailHeightMapDistance>
+			<lodDistances>
+				<distance0>	0.0000	</distance0>
+				<distance1>	0.0000	</distance1>
+				<distance2>	0.0000	</distance2>
+				<distance3>	0.0000	</distance3>
+				<distance4>	1000.0000	</distance4>
+				<distance5>	3000.0000	</distance5>
+				<distance6>	5000.0000	</distance6>
+			</lodDistances>
+			<server>
+				<heightMapLod>	0	</heightMapLod>
+			</server>
+		</lodInfo>
+	</terrain>
+	<navmeshGenerator>	navgen	</navmeshGenerator>
+	<startPosition>	104.588478 8.089443 -71.456070	</startPosition>
+	<startDirection>	-0.000488 0.130002 -1.537275	</startDirection>
+	<UnprocessedData>
+		<shadows>	false	</shadows>
+		<heightMap>	true	</heightMap>
+		<miniMap>	true	</miniMap>
+		<saved>	false	</saved>
+	</UnprocessedData>
+</space.settings>

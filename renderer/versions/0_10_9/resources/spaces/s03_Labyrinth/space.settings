@@ -1,0 +1,48 @@
+<space.settings>
+	<bounds
+			minX="-9"
+			maxX="8"
+			minY="-9"
+			maxY="8" />
+	<terrain>
+		<version>	200	</version>
+		<enabled>	false	</enabled>
+		<heightMapSize>	256	</heightMapSize>
+		<normalMapSize>	256	</normalMapSize>
+		<blendMapSize>	256	</blendMapSize>
+		<detailUVScale />
+		<lodInfo>
+			<startBias>	0.8000	</startBias>
+			<endBias>	0.9900	</endBias>
+			<lodTextureStart>	5000.0000	</lodTextureStart>
+			<lodTextureDistance>	5000.0000	</lodTextureDistance>
+			<blendPreloadDistance>	5000.0000	</blendPreloadDistance>
+			<lodNormalStart>	10000.0000	</lodNormalStart>
+			<lodNormalDistance>	100.0000	</lodNormalDistance>
+			<normalPreloadDistance>	100.0000	</normalPreloadDistance>
+			<defaultHeightMapLod>	2	</defaultHeightMapLod>
+			<detailHeightMapDistance>	500.0000	</detailHeightMapDistance>
+			<lodDistances>
+				<distance0>	0.0000	</distance0>
+				<distance1>	0.0000	</distance1>
+				<distance2>	90.0000	</distance2>
+				<distance3>	300.0000	</distance3>
+				<distance4>	1900.0000	</distance4>
+				<distance5>	2000.0000	</distance5>
+				<distance6>	4300.0000	</distance6>
+			</lodDistances>
+			<server>
+				<heightMapLod>	0	</heightMapLod>
+			</server>
+		</lodInfo>
+	</terrain>
+	<navmeshGenerator>	navgen	</navmeshGenerator>
+	<UnprocessedData>
+		<shadows>	false	</shadows>
+		<heightMap>	true	</heightMap>
+		<miniMap>	true	</miniMap>
+		<saved>	false	</saved>
+	</UnprocessedData>
+	<startPosition>	-334.804596 10.640129 -41.336487	</startPosition>
+	<startDirection>	0.000000 0.250001 -2.686851	</startDirection>
+</space.settings>
