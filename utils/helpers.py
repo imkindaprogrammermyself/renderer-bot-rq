@@ -21,7 +21,7 @@ def username_to_use(ctx: Context):
     ch: TextChannel = ctx.channel
     user: User = ctx.author
 
-    if hasattr(ch, 'guild'):
+    if hasattr(ch, "guild"):
         try:
             return ch.guild.get_member(user.id).display_name
         except Exception:
