@@ -78,3 +78,4 @@ dmypy.json
 .pytype/
 cython_debug/
 /code_testing/
+*rdb
