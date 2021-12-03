@@ -15,20 +15,52 @@ from PIL.ImageFont import FreeTypeFont
 from rq.job import Job
 
 from renderer.constants import *
-from renderer.data import (Achievement, Capture, DataShare, Death, Plane,
-                           ReplayData, Ribbon, Score, Ship, Ward, Weather)
-from renderer.helpers import (catch_exception, catch_exception_non_generator,
-                              check_trim, delete_temp_files, draw_grid,
-                              generate_holder, generate_torus, get_map_size,
-                              load_image, memoize, memoize_image_gen,
-                              paste_args, paste_args_centered, paste_centered,
-                              replace_color)
+from renderer.data import (
+    Achievement,
+    Capture,
+    DataShare,
+    Death,
+    Plane,
+    ReplayData,
+    Ribbon,
+    Score,
+    Ship,
+    Ward,
+    Weather,
+)
+from renderer.helpers import (
+    catch_exception,
+    catch_exception_non_generator,
+    check_trim,
+    delete_temp_files,
+    draw_grid,
+    generate_holder,
+    generate_torus,
+    get_map_size,
+    load_image,
+    memoize,
+    memoize_image_gen,
+    paste_args,
+    paste_args_centered,
+    paste_centered,
+    replace_color,
+)
 from rq import get_current_job
 
 
 class RendererBase:
-    def __init__(self, replay_data: ReplayData, fps=60, quality=5, logs=False,
-                 benny=False, dual=False, as_enemy=False, doom=False, share: Union[dict, None] = None):
+    def __init__(
+        self,
+        replay_data: ReplayData,
+        fps=60,
+        quality=5,
+        logs=False,
+        benny=False,
+        dual=False,
+        as_enemy=False,
+        doom=False,
+        share: Union[dict, None] = None,
+    ):
         self._replay_data = replay_data
         self._fps = 60 if benny else fps
         self._quality = quality
@@ -57,9 +89,9 @@ class RendererBase:
         self._font_score: Union[FreeTypeFont, None] = None
         # info
         self._nt_ship_info = ShipInfo = namedtuple(
-            "ShipInfo", "name species level visibility_coef holder")
-        self._nt_plane_info = PlaneInfo = namedtuple(
-            "PlaneInfo", "species ammo_type")
+            "ShipInfo", "name species level visibility_coef holder"
+        )
+        self._nt_plane_info = PlaneInfo = namedtuple("PlaneInfo", "species ammo_type")
         self._info_ships: dict[int, ShipInfo] = {}
         self._info_planes: dict[int, PlaneInfo] = {}
         self._cap_total_progresses: dict[int, float] = {}
@@ -83,7 +115,8 @@ class RendererBase:
         self._player_is_alive: bool = True
         # output
         self._temp_output_path = tempfile.NamedTemporaryFile(
-            "w", delete=False, suffix=".mp4").name
+            "w", delete=False, suffix=".mp4"
+        ).name
         # cache
         self._cache = {}
         self._cache_max_it = 10
@@ -114,25 +147,33 @@ class RendererBase:
             info_panel = self._img_info_panel.copy()
 
             info_panel_draw = ImageDraw.Draw(info_panel)
-            info_panel_draw.text((5, 5), text=states.time,
-                                 font=self._font_time)
+            info_panel_draw.text((5, 5), text=states.time, font=self._font_time)
 
             if self._replay_data.match.battle_type != 14:
                 info_panel.paste(*self._layer_score(states.score))
                 info_panel.paste(
-                    *self._layer_score_timer(states.score, states.captures))
+                    *self._layer_score_timer(states.score, states.captures)
+                )
 
             if weather_info_image := self._layer_weather(states.weather):
                 info_panel.paste(*weather_info_image)
 
-            generators = [self._layer_caps(states.captures), self._layer_wards(states.wards),
-                          self._layer_ships(states.ships), self._layer_planes(states.planes)]
+            generators = [
+                self._layer_caps(states.captures),
+                self._layer_wards(states.wards),
+                self._layer_ships(states.ships),
+                self._layer_planes(states.planes),
+            ]
 
             if self._logs:
-                _logs = [self._layer_damage(states.damage, states.damage_agro, states.damage_spot),
-                         self._layer_ribbon(states.ribbon),
-                         self._layer_achievement(states.achievement),
-                         self._layer_death(states.deaths)]
+                _logs = [
+                    self._layer_damage(
+                        states.damage, states.damage_agro, states.damage_spot
+                    ),
+                    self._layer_ribbon(states.ribbon),
+                    self._layer_achievement(states.achievement),
+                    self._layer_death(states.deaths),
+                ]
 
                 for _log in _logs:
                     if _log:
@@ -162,8 +203,7 @@ class RendererBase:
             video_data = f.read()
 
         if self._doom and self._replay_data.owner_frag_times:
-            doomed = tempfile.NamedTemporaryFile(
-                "w", delete=False, suffix=".mp4").name
+            doomed = tempfile.NamedTemporaryFile("w", delete=False, suffix=".mp4").name
             drop = 4.708
             actual_kill = self._replay_data.owner_frag_times[0] / self._fps
             sync_time = actual_kill - drop
@@ -174,15 +214,38 @@ class RendererBase:
             with path(self._shared_res_package, "doom.mp3") as doom_path:
                 doom_bgm = str(doom_path)
 
-            _filter = f"[1]adelay={round(sync_time * 1000)}|{round(sync_time * 1000)}[a];" \
-                      f"[2]afade=t=out:st={sync_time}:d={drop}[b];[a][b]amix[out]"
+            _filter = (
+                f"[1]adelay={round(sync_time * 1000)}|{round(sync_time * 1000)}[a];"
+                f"[2]afade=t=out:st={sync_time}:d={drop}[b];[a][b]amix[out]"
+            )
 
-            subprocess.run([get_ffmpeg_exe(), '-i', self._temp_output_path, '-i', doom_bgm, '-i', elevator_bgm,
-                            '-filter_complex', _filter, '-map', '0:v:0', '-map', '[out]', '-c:v', 'copy', '-shortest',
-                            '-y', '-loglevel', 'quiet', doomed],
-                           text=True)
+            subprocess.run(
+                [
+                    get_ffmpeg_exe(),
+                    "-i",
+                    self._temp_output_path,
+                    "-i",
+                    doom_bgm,
+                    "-i",
+                    elevator_bgm,
+                    "-filter_complex",
+                    _filter,
+                    "-map",
+                    "0:v:0",
+                    "-map",
+                    "[out]",
+                    "-c:v",
+                    "copy",
+                    "-shortest",
+                    "-y",
+                    "-loglevel",
+                    "quiet",
+                    doomed,
+                ],
+                text=True,
+            )
 
-            with open(doomed, 'rb') as f:
+            with open(doomed, "rb") as f:
                 video_data = f.read()
             delete_temp_files(doomed)
         delete_temp_files(self._temp_output_path)
@@ -210,24 +273,35 @@ class RendererBase:
 
             if not self._as_enemy:
                 info_panel_draw = ImageDraw.Draw(info_panel)
-                info_panel_draw.text(
-                    (5, 5), text=states.time, font=self._font_time)
+                info_panel_draw.text((5, 5), text=states.time, font=self._font_time)
 
             if self._replay_data.match.battle_type != 14:
                 if not self._as_enemy:
                     info_panel.paste(*self._layer_score(states.score))
                     info_panel.paste(
-                        *self._layer_score_timer(states.score, states.captures))
+                        *self._layer_score_timer(states.score, states.captures)
+                    )
 
-            if weather_info_image := self._layer_weather(states.weather) and not self._dual and not self._as_enemy:
+            if (
+                weather_info_image := self._layer_weather(states.weather)
+                and not self._dual
+                and not self._as_enemy
+            ):
                 info_panel.paste(*weather_info_image)
 
             if self._as_enemy:
-                generators = [self._layer_wards(states.wards), self._layer_ships(states.ships),
-                              self._layer_planes(states.planes)]
+                generators = [
+                    self._layer_wards(states.wards),
+                    self._layer_ships(states.ships),
+                    self._layer_planes(states.planes),
+                ]
             else:
-                generators = [self._layer_caps(states.captures), self._layer_wards(states.wards),
-                              self._layer_ships(states.ships), self._layer_planes(states.planes)]
+                generators = [
+                    self._layer_caps(states.captures),
+                    self._layer_wards(states.wards),
+                    self._layer_ships(states.ships),
+                    self._layer_planes(states.planes),
+                ]
 
             for generator in generators:
                 for args in generator:
@@ -241,6 +315,7 @@ class RendererBase:
 
     def get_total(self) -> int:
         return len(self._replay_data.states)
+
     ##############
     # SHIP LAYER #
     ##############
@@ -252,7 +327,9 @@ class RendererBase:
         :param ship_state:
         :return:
         """
-        for ship in sorted(ship_state.values(), key=lambda s: (s.is_alive, s.is_visible)):
+        for ship in sorted(
+            ship_state.values(), key=lambda s: (s.is_alive, s.is_visible)
+        ):
             if ship.is_owner:
                 self._player_pos_x = ship.x
                 self._player_pos_y = ship.y
@@ -276,14 +353,23 @@ class RendererBase:
 
         # view range and weather shenanigans
 
-        dist = math.hypot(ship.x - self._player_pos_x,
-                          ship.y - self._player_pos_y) * 0.03
-        dist_plane = math.hypot(
-            ship.x - self._player_plane_pos_x, ship.y - self._player_plane_pos_y) * 0.03
+        dist = (
+            math.hypot(ship.x - self._player_pos_x, ship.y - self._player_pos_y) * 0.03
+        )
+        dist_plane = (
+            math.hypot(
+                ship.x - self._player_plane_pos_x, ship.y - self._player_plane_pos_y
+            )
+            * 0.03
+        )
 
         if self._weather.vision_distance_ship:
             sw_vision_km = self._weather.vision_distance_ship * 0.03
-            ship_view_range = self._player_view_range if sw_vision_km > self._player_view_range else sw_vision_km
+            ship_view_range = (
+                self._player_view_range
+                if sw_vision_km > self._player_view_range
+                else sw_vision_km
+            )
         else:
             ship_view_range = self._player_view_range
 
@@ -316,8 +402,9 @@ class RendererBase:
         if self._dual and ship.relation == 1:
             return None
 
-        icon = self._get_ship_icon(ship.is_alive, ship.is_visible, species, ship.relation, in_range) \
-            .rotate(yaw, Image.BICUBIC, True)
+        icon = self._get_ship_icon(
+            ship.is_alive, ship.is_visible, species, ship.relation, in_range
+        ).rotate(yaw, Image.BICUBIC, True)
 
         if ship.is_alive:
             icon_holder = paste_centered(info.holder.copy(), icon)
@@ -325,13 +412,16 @@ class RendererBase:
             if ship.is_visible:
                 if in_range:
                     self._draw_health_bar(
-                        icon_holder, ship.health, ship.health_max, ship.relation)
+                        icon_holder, ship.health, ship.health_max, ship.relation
+                    )
                     return paste_args_centered(icon_holder, x, y, True)
             return paste_args_centered(icon_holder, x, y, True)
         else:
             return paste_args_centered(icon, x, y, True)
 
-    def _draw_health_bar(self, image: Image.Image, health: int, health_max: int, relation: int):
+    def _draw_health_bar(
+        self, image: Image.Image, health: int, health_max: int, relation: int
+    ):
         """
         Health bar stuff.
         :param image: Image where to draw the health bar.
@@ -353,13 +443,24 @@ class RendererBase:
         x1 = w - (w / 2 - x0) - x0
         health = health if health > 0 else health_max
         x1 = x1 * (health / health_max) + x0
-        draw.rectangle([(x0, health_bar_y_pos), (w - x0,
-                       health_bar_y_pos + health_bar_height)], outline="#808080")
-        draw.rectangle([(x0, health_bar_y_pos),
-                       (x1, health_bar_y_pos + health_bar_height)], fill=color)
+        draw.rectangle(
+            [(x0, health_bar_y_pos), (w - x0, health_bar_y_pos + health_bar_height)],
+            outline="#808080",
+        )
+        draw.rectangle(
+            [(x0, health_bar_y_pos), (x1, health_bar_y_pos + health_bar_height)],
+            fill=color,
+        )
 
     @memoize_image_gen
-    def _get_ship_icon(self, is_alive: bool, is_visible: bool, species: str, relation: int, is_in_range: bool):
+    def _get_ship_icon(
+        self,
+        is_alive: bool,
+        is_visible: bool,
+        species: str,
+        relation: int,
+        is_in_range: bool,
+    ):
         """
         Gets the ship icon from disk/memory.
         :param is_alive: Is the ship alive?
@@ -414,8 +515,9 @@ class RendererBase:
             return
 
         if cap.progress_total != -1.0:
-            progress_val = round(1 - cap.progress_total /
-                                 self._cap_total_progresses[cap.id], 1)
+            progress_val = round(
+                1 - cap.progress_total / self._cap_total_progresses[cap.id], 1
+            )
         else:
             progress_val = round(cap.progress_percent, 2)
 
@@ -423,22 +525,29 @@ class RendererBase:
             x, y = self._get_scaled_xy(round(cap.x), round(-cap.y))
             radius = self._get_scaled_r(cap.radius)
             w = h = round(radius * 2)
-            capture_area = self._get_capture_area_domination(
-                cap.relation).resize((w, h))
+            capture_area = self._get_capture_area_domination(cap.relation).resize(
+                (w, h)
+            )
 
             if cap.has_invaders and cap.invader_team != -1:
                 if cap.invader_team == self._replay_data.match.owner_team:
                     progress = self._get_progress(
-                        self._colors[cap.relation], self._colors[0], progress_val)
+                        self._colors[cap.relation], self._colors[0], progress_val
+                    )
                 else:
                     progress = self._get_progress(
-                        self._colors[cap.relation], self._colors[1], progress_val)
+                        self._colors[cap.relation], self._colors[1], progress_val
+                    )
             else:
-                progress = replace_color(self._get_progress_normal(), from_color="#000000",
-                                         to_color=self._colors[cap.relation])
+                progress = replace_color(
+                    self._get_progress_normal(),
+                    from_color="#000000",
+                    to_color=self._colors[cap.relation],
+                )
 
             progress = progress.resize(
-                (round(w / 3), round(h / 3)), resample=Image.LANCZOS)
+                (round(w / 3), round(h / 3)), resample=Image.LANCZOS
+            )
             capture_area = paste_centered(capture_area, progress, True)
             return paste_args_centered(capture_area, x, y, True)
         else:
@@ -447,9 +556,15 @@ class RendererBase:
             inner_radius = round(self._get_scaled_r(cap.inner_radius))
 
             if cap.has_invaders and cap.invader_team != -1:
-                if cap.invader_team == self._replay_data.match.owner_team and progress_val > 0:
+                if (
+                    cap.invader_team == self._replay_data.match.owner_team
+                    and progress_val > 0
+                ):
                     to_color = self._colors[0]
-                elif cap.invader_team != self._replay_data.match.owner_team and progress_val > 0:
+                elif (
+                    cap.invader_team != self._replay_data.match.owner_team
+                    and progress_val > 0
+                ):
                     to_color = self._colors[1]
                 else:
                     to_color = self._colors[cap.relation]
@@ -459,7 +574,13 @@ class RendererBase:
                 progress_val = 1
 
             torus = generate_torus(
-                self, self._colors[cap.relation], to_color, radius, inner_radius, progress_val)
+                self,
+                self._colors[cap.relation],
+                to_color,
+                radius,
+                inner_radius,
+                progress_val,
+            )
             return paste_args_centered(torus, x, y, True)
 
     def _get_progress_normal(self):
@@ -480,13 +601,18 @@ class RendererBase:
         """
         attr_name = "cap_invaded"
         progress_diamond = load_image(
-            self, (f"{self._shared_res_package}", f"{attr_name}.png"))
+            self, (f"{self._shared_res_package}", f"{attr_name}.png")
+        )
         bg_diamond = replace_color(progress_diamond, "#000000", from_color)
         fg_diamond = replace_color(progress_diamond, "#000000", to_color)
         mask = Image.new("RGBA", progress_diamond.size, None)
         mask_draw = ImageDraw.Draw(mask, "RGBA")
-        mask_draw.pieslice([(0, 0), (progress_diamond.width - 1, progress_diamond.height - 1)], start=-90,
-                           end=(-90 + 360 * percent), fill="black")
+        mask_draw.pieslice(
+            [(0, 0), (progress_diamond.width - 1, progress_diamond.height - 1)],
+            start=-90,
+            end=(-90 + 360 * percent),
+            fill="black",
+        )
         bg_diamond.paste(fg_diamond, mask)
         return bg_diamond
 
@@ -496,8 +622,7 @@ class RendererBase:
         :param relation:
         :return:
         """
-        str_relation = self._relations[relation] if relation != - \
-            1 else 'neutral'
+        str_relation = self._relations[relation] if relation != -1 else "neutral"
         attr_name = f"cap_{str_relation}"
         return load_image(self, (self._shared_res_package, f"{attr_name}.png"), True)
 
@@ -506,7 +631,9 @@ class RendererBase:
     ###############
 
     @catch_exception
-    def _layer_planes(self, plane_state: dict[int, Plane]) -> Generator[tuple, None, None]:
+    def _layer_planes(
+        self, plane_state: dict[int, Plane]
+    ) -> Generator[tuple, None, None]:
         """
         Yields tuple for pasting.
         :param plane_state: Data provided by the modified replay_unpack.
@@ -524,7 +651,8 @@ class RendererBase:
                 yield None
             else:
                 icon = self._get_plane_icon(
-                    plane.plane_params_id, plane.purpose, plane.relation)
+                    plane.plane_params_id, plane.purpose, plane.relation
+                )
                 yield paste_args_centered(icon, x, y, True)
         return
 
@@ -542,7 +670,7 @@ class RendererBase:
         plane_info = self._info_planes[plane_params_id]
 
         if purpose in [0, 1]:
-            if plane_info.species == 'Dive':
+            if plane_info.species == "Dive":
                 data = f"{icon_res}.{icon_type}", f"Dive_{plane_info.ammo_type}.png"
             else:
                 data = f"{icon_res}.{icon_type}", f"{plane_info.species}.png"
@@ -550,7 +678,10 @@ class RendererBase:
             data = f"{icon_res}.{icon_type}", "Cap.png"
         else:
             if purpose == 6:
-                data = f"{icon_res}.{icon_type}", f"Airstrike_{plane_info.ammo_type}.png"
+                data = (
+                    f"{icon_res}.{icon_type}",
+                    f"Airstrike_{plane_info.ammo_type}.png",
+                )
             else:
                 data = f"{icon_res}.{icon_type}", "Scout.png"
 
@@ -602,7 +733,8 @@ class RendererBase:
 
         w = h = round(self._get_scaled_r(radius) * 2 + 2)
         image = self._get_ward_image(
-            (f"{self._shared_res_package}", f"{ward_name}.png"), (w, h))
+            (f"{self._shared_res_package}", f"{ward_name}.png"), (w, h)
+        )
         return paste_args_centered(image, x, y, masked=True)
 
     def _get_ward_image(self, resource: tuple, size: tuple):
@@ -631,37 +763,52 @@ class RendererBase:
         :param score_state: Data provided by the replay_unpack
         :return: PIL Image containing the scores/scores bar.
         """
-        image: Image.Image = Image.new(
-            "RGBA", (700, 50), self._global_bg_color)
+        image: Image.Image = Image.new("RGBA", (700, 50), self._global_bg_color)
         mid_space = 50
         bar_height = 30
         mid = round(image.width / 2)
-        bar_ally_x_pos = round(
-            mid * (score_state.ally_score / score_state.win_score))
-        bar_enemy_x_pos = round(
-            mid * (score_state.enemy_score / score_state.win_score))
+        bar_ally_x_pos = round(mid * (score_state.ally_score / score_state.win_score))
+        bar_enemy_x_pos = round(mid * (score_state.enemy_score / score_state.win_score))
         ally_score_text_w, ally_score_text_h = self._font_score.getsize(
-            f"{score_state.ally_score}")
+            f"{score_state.ally_score}"
+        )
         separator_w, separator_h = self._font_score.getsize(":")
         draw = ImageDraw.Draw(image)
 
         # GREEN
-        draw.rectangle([(0, 0), (mid - mid_space, bar_height)],
-                       outline='#4ce8aa', width=1)
         draw.rectangle(
-            [(0, 0), (bar_ally_x_pos - mid_space, bar_height)], fill='#4ce8aa')
+            [(0, 0), (mid - mid_space, bar_height)], outline="#4ce8aa", width=1
+        )
+        draw.rectangle(
+            [(0, 0), (bar_ally_x_pos - mid_space, bar_height)], fill="#4ce8aa"
+        )
         # RED
-        draw.rectangle([(mid + mid_space, 0), (image.width - 1,
-                       bar_height)], outline='#fe4d2a', width=1)
-        draw.rectangle([(mid + mid_space, 0), (round(image.width / 2) + bar_enemy_x_pos - 1, bar_height)],
-                       fill='#fe4d2a')
+        draw.rectangle(
+            [(mid + mid_space, 0), (image.width - 1, bar_height)],
+            outline="#fe4d2a",
+            width=1,
+        )
+        draw.rectangle(
+            [
+                (mid + mid_space, 0),
+                (round(image.width / 2) + bar_enemy_x_pos - 1, bar_height),
+            ],
+            fill="#fe4d2a",
+        )
 
-        draw.text((mid - ally_score_text_w - 8, -1), text=str(score_state.ally_score), font=self._font_score,
-                  fill="white")
-        draw.text((mid + 8, -1), text=str(score_state.enemy_score),
-                  font=self._font_score, fill="white")
-        draw.text((mid - round(separator_w / 2), -1),
-                  text=":", font=self._font_score)
+        draw.text(
+            (mid - ally_score_text_w - 8, -1),
+            text=str(score_state.ally_score),
+            font=self._font_score,
+            fill="white",
+        )
+        draw.text(
+            (mid + 8, -1),
+            text=str(score_state.enemy_score),
+            font=self._font_score,
+            fill="white",
+        )
+        draw.text((mid - round(separator_w / 2), -1), text=":", font=self._font_score)
         return image
 
     @catch_exception_non_generator
@@ -707,28 +854,37 @@ class RendererBase:
             ally_cumulative_rate = ally_caps * rate
             ally_score_per_sec = ally_cumulative_rate / score_tick
             ally_remaining = score_state.win_score - score_state.ally_score
-            ally_cap_time = time.strftime("%M:%S", time.gmtime(
-                ally_remaining / ally_score_per_sec))
+            ally_cap_time = time.strftime(
+                "%M:%S", time.gmtime(ally_remaining / ally_score_per_sec)
+            )
             setattr(self, "ally_cap_time", ally_cap_time)
 
         if enemy_caps > 0:
             enemy_cumulative_rate = enemy_caps * rate
             enemy_score_per_sec = enemy_cumulative_rate / score_tick
             enemy_remaining = score_state.win_score - score_state.enemy_score
-            enemy_cap_time = time.strftime("%M:%S", time.gmtime(
-                enemy_remaining / enemy_score_per_sec))
+            enemy_cap_time = time.strftime(
+                "%M:%S", time.gmtime(enemy_remaining / enemy_score_per_sec)
+            )
             setattr(self, "enemy_cap_time", enemy_cap_time)
 
         w, h = 41, 42
 
-        bg_image: Image.Image = Image.new(
-            "RGBA", (w, h), self._global_bg_color)
+        bg_image: Image.Image = Image.new("RGBA", (w, h), self._global_bg_color)
         bg_image_draw = ImageDraw.Draw(bg_image)
 
-        bg_image_draw.text((0, 0), text=f"{getattr(self, 'ally_cap_time', '99:99')}", fill=self._colors[0],
-                           font=self._font_time)
-        bg_image_draw.text((0, 18), text=f"{getattr(self, 'enemy_cap_time', '99:99')}", fill=self._colors[1],
-                           font=self._font_time)
+        bg_image_draw.text(
+            (0, 0),
+            text=f"{getattr(self, 'ally_cap_time', '99:99')}",
+            fill=self._colors[0],
+            font=self._font_time,
+        )
+        bg_image_draw.text(
+            (0, 18),
+            text=f"{getattr(self, 'enemy_cap_time', '99:99')}",
+            fill=self._colors[1],
+            font=self._font_time,
+        )
 
         return bg_image
 
@@ -738,7 +894,10 @@ class RendererBase:
 
     @catch_exception_non_generator
     def _layer_weather(self, weather_state: Weather):
-        if weather_state.vision_distance_ship and weather_state.vision_distance_ship != 2000:
+        if (
+            weather_state.vision_distance_ship
+            and weather_state.vision_distance_ship != 2000
+        ):
             generated = self._generate_weather_info(weather_state)
             return paste_args(generated, 5, 25, False)
         else:
@@ -747,16 +906,23 @@ class RendererBase:
     @memoize_image_gen
     def _generate_weather_info(self, weather_state: Weather):
         cyclone_icon: Image.Image = load_image(
-            self, (self._shared_res_package, "cyclone.png"), True)
+            self, (self._shared_res_package, "cyclone.png"), True
+        )
         cyclone_icon.thumbnail((21, 21), Image.LANCZOS)
         bg: Image.Image = Image.new("RGBA", (41, 21), self._global_bg_color)
-        bg.paste(cyclone_icon, (0, int(bg.height / 2 -
-                 cyclone_icon.height / 2)), cyclone_icon)
+        bg.paste(
+            cyclone_icon,
+            (0, int(bg.height / 2 - cyclone_icon.height / 2)),
+            cyclone_icon,
+        )
         bg_draw = ImageDraw.Draw(bg)
         dist_text = f"{round(weather_state.vision_distance_ship * 0.03) :02}"
         tw, th = self._font_weather.getsize(dist_text)
-        bg_draw.text((cyclone_icon.width + 3, int(bg.height / 2 -
-                     th / 2) - 3), text=dist_text, font=self._font_weather)
+        bg_draw.text(
+            (cyclone_icon.width + 3, int(bg.height / 2 - th / 2) - 3),
+            text=dist_text,
+            font=self._font_weather,
+        )
         return bg
 
     ################
@@ -778,12 +944,11 @@ class RendererBase:
         text_agro = f"POTENTIAL"
         text_spot = f"SPOTTING"
 
-        text_damage_val = f"{damage:,}".replace(',', ' ')
-        text_agro_val = f"{agro:,}".replace(',', ' ')
-        text_spot_val = f"{spot:,}".replace(',', ' ')
+        text_damage_val = f"{damage:,}".replace(",", " ")
+        text_agro_val = f"{agro:,}".replace(",", " ")
+        text_spot_val = f"{spot:,}".replace(",", " ")
 
-        base: Image.Image = Image.new(
-            "RGBA", (490, 110), self._global_bg_color)
+        base: Image.Image = Image.new("RGBA", (490, 110), self._global_bg_color)
         base_draw = ImageDraw.Draw(base)
 
         y_pos = -5
@@ -830,8 +995,7 @@ class RendererBase:
         base = Image.new("RGBA", (490, base_h), self._global_bg_color)
 
         for idx, (k, v) in enumerate(ribbons.non_zero().items()):
-            img_ribbon = self._get_ribbon_image(
-                k, v)  # get the corresponding ribbon
+            img_ribbon = self._get_ribbon_image(k, v)  # get the corresponding ribbon
             base.paste(img_ribbon, (cx, cy), img_ribbon)
             cx += img_ribbon.width + 40
             # sets the position to a new "line" if there's enough icons in that line.
@@ -853,8 +1017,13 @@ class RendererBase:
         text = f"x{count}"
         tw, th = self._font_score.getsize(text)
         draw = ImageDraw.Draw(ribbon_img)
-        draw.text((ribbon_img.width - tw - 4, ribbon_img.height - th - 3), text, font=self._font_score,
-                  stroke_width=1, stroke_fill="black")
+        draw.text(
+            (ribbon_img.width - tw - 4, ribbon_img.height - th - 3),
+            text,
+            font=self._font_score,
+            stroke_width=1,
+            stroke_fill="black",
+        )
         return ribbon_img
 
     #####################
@@ -866,8 +1035,9 @@ class RendererBase:
         if not achievement:
             return
 
-        generated = paste_args(self._generate_achievement(
-            achievement), 810, self._logs_y, False)
+        generated = paste_args(
+            self._generate_achievement(achievement), 810, self._logs_y, False
+        )
         return generated
 
     @memoize_image_gen
@@ -904,14 +1074,21 @@ class RendererBase:
         # If not, load it and set it as an attribute for further usage.
 
         achievement_image: Image.Image = load_image(
-            self, (resource, f"{a_id}.png"), True)
+            self, (resource, f"{a_id}.png"), True
+        )
         # Don't display x{Count} if there's only 1 achievement of that type earned.
         if count > 1:
             text = f"x{count}"
             tw, th = self._font_score.getsize(text)
             draw = ImageDraw.Draw(achievement_image)
-            draw.text((achievement_image.width - tw - 5, achievement_image.height - th - 3), text,
-                      font=self._font_score, stroke_width=1, stroke_fill="black", fill="white")
+            draw.text(
+                (achievement_image.width - tw - 5, achievement_image.height - th - 3),
+                text,
+                font=self._font_score,
+                stroke_width=1,
+                stroke_fill="black",
+                fill="white",
+            )
         return achievement_image
 
     ################
@@ -941,26 +1118,43 @@ class RendererBase:
 
             death_icon = self._get_death_type_icon(death.death_type), -1
 
-            killer_ship_icon = self._get_ship_frag_log_icon(killer_ship_info.species, killer_player_info.relation,
-                                                            True), 4
-            killed_ship_icon = self._get_ship_frag_log_icon(killed_ship_info.species, killed_player_info.relation,
-                                                            False), 4
+            killer_ship_icon = (
+                self._get_ship_frag_log_icon(
+                    killer_ship_info.species, killer_player_info.relation, True
+                ),
+                4,
+            )
+            killed_ship_icon = (
+                self._get_ship_frag_log_icon(
+                    killed_ship_info.species, killed_player_info.relation, False
+                ),
+                4,
+            )
 
             killer_ship_name = f"{self._tiers_roman[killer_ship_info.level - 1]} {killer_ship_info.name}"
             killed_ship_name = f"{self._tiers_roman[killed_ship_info.level - 1]} {killed_ship_info.name}"
 
-            killer_color = self._colors[0 if killer_player_info.relation == -
-                                        1 else killer_player_info.relation]
-            killed_color = self._colors[0 if killed_player_info.relation == -
-                                        1 else killed_player_info.relation]
+            killer_color = self._colors[
+                0 if killer_player_info.relation == -1 else killer_player_info.relation
+            ]
+            killed_color = self._colors[
+                0 if killed_player_info.relation == -1 else killed_player_info.relation
+            ]
 
             killer_name = death.killer_name, killer_color
             killer_ship_name = killer_ship_name, killer_color
             killed_name = death.killed_name, killed_color
             killed_ship_name = killed_ship_name, killed_color
 
-            data = (killer_name, killer_ship_icon, killer_ship_name, death_icon, killed_name, killed_ship_icon,
-                    killed_ship_name)
+            data = (
+                killer_name,
+                killer_ship_icon,
+                killer_ship_name,
+                death_icon,
+                killed_name,
+                killed_ship_icon,
+                killed_ship_name,
+            )
 
             line = self._get_line(*data)
             images.append(line)
@@ -969,7 +1163,8 @@ class RendererBase:
         h = max(img.height for img in images)
 
         base: Image.Image = Image.new(
-            "RGBA", (w, h * len(images)), self._global_bg_color)
+            "RGBA", (w, h * len(images)), self._global_bg_color
+        )
         heights = []
 
         for image in images:
@@ -981,9 +1176,16 @@ class RendererBase:
         return paste_args(base, 810, 850 - base.height, False)
 
     @memoize_image_gen
-    def _get_line(self, killer_name, killer_icon: tuple[Image.Image, int], killer_ship_name,
-                  death_icon: tuple[Image.Image, int], killed_name, killed_icon: tuple[Image.Image, int],
-                  killed_ship_name):
+    def _get_line(
+        self,
+        killer_name,
+        killer_icon: tuple[Image.Image, int],
+        killer_ship_name,
+        death_icon: tuple[Image.Image, int],
+        killed_name,
+        killed_icon: tuple[Image.Image, int],
+        killed_ship_name,
+    ):
 
         # get widths of elements with fixed width (ship name will be a fixed width)
         # sum it
@@ -993,38 +1195,52 @@ class RendererBase:
         line_height = 21
         spacer = 4
 
-        killer_ship_name_w, killer_ship_name_h = self._font.getsize(
-            killer_ship_name[0])
-        killed_ship_name_w, killed_ship_name_h = self._font.getsize(
-            killed_ship_name[0])
+        killer_ship_name_w, killer_ship_name_h = self._font.getsize(killer_ship_name[0])
+        killed_ship_name_w, killed_ship_name_h = self._font.getsize(killed_ship_name[0])
 
-        total_w_static = killer_icon[0].width + \
-            killed_icon[0].width + killer_ship_name_w + killed_ship_name_w
+        total_w_static = (
+            killer_icon[0].width
+            + killed_icon[0].width
+            + killer_ship_name_w
+            + killed_ship_name_w
+        )
         total_w_static += (spacer * 6) + death_icon[0].width
         max_width = (490 - total_w_static) // 2
 
         killer_name_str, killer_name_w, killer_name_h = check_trim(
-            killer_name[0], self._font, max_width)
+            killer_name[0], self._font, max_width
+        )
         killed_name_str, killed_name_w, killed_name_h = check_trim(
-            killed_name[0], self._font, max_width)
+            killed_name[0], self._font, max_width
+        )
 
         killer_name = killer_name_str, killer_name[1]
         killed_name = killed_name_str, killed_name[1]
 
         total_width = total_w_static + killer_name_w + killed_name_w
         base: Image.Image = Image.new(
-            "RGBA", (total_width, line_height), self._global_bg_color)
+            "RGBA", (total_width, line_height), self._global_bg_color
+        )
         base_draw = ImageDraw.Draw(base)
         pos_x = 0
 
-        for n in [killer_name, killer_icon, killer_ship_name, death_icon, killed_name, killed_icon, killed_ship_name]:
+        for n in [
+            killer_name,
+            killer_icon,
+            killer_ship_name,
+            death_icon,
+            killed_name,
+            killed_icon,
+            killed_ship_name,
+        ]:
             if isinstance(n, tuple) and all(isinstance(i, str) for i in n):
                 text, color = n
                 _w, _ = self._font.getsize(text)
-                base_draw.text((pos_x, 0), text=text,
-                               font=self._font, fill=color)
+                base_draw.text((pos_x, 0), text=text, font=self._font, fill=color)
                 pos_x += _w + spacer
-            elif isinstance(n, tuple) and all(isinstance(i, Image.Image) or isinstance(i, int) for i in n):
+            elif isinstance(n, tuple) and all(
+                isinstance(i, Image.Image) or isinstance(i, int) for i in n
+            ):
                 img, offset = n
                 base.paste(img, (pos_x, offset), img)
                 pos_x += img.width + spacer
@@ -1041,9 +1257,13 @@ class RendererBase:
         :param killer: Is killer?
         :return: PIL Image.
         """
-        str_relation = self._relations[0] if relation == - \
-            1 else self._relations[relation]
-        _icon_res = f"{self._shared_res_package}.ship_icons.{str_relation}", f"{species}.png"
+        str_relation = (
+            self._relations[0] if relation == -1 else self._relations[relation]
+        )
+        _icon_res = (
+            f"{self._shared_res_package}.ship_icons.{str_relation}",
+            f"{species}.png",
+        )
         image = load_image(self, _icon_res)
 
         if killer:
@@ -1072,10 +1292,14 @@ class RendererBase:
         Set the scaling factor for coordinates and radius.
         """
         try:
-            target_package = f"{self._res_package}.spaces.{self._replay_data.match.map_name}"
+            target_package = (
+                f"{self._res_package}.spaces.{self._replay_data.match.map_name}"
+            )
             minimap_settings = read_text(target_package, "space.settings")
         except Exception:
-            target_package = f"{self._res_package}.spaces.s{self._replay_data.match.map_name}"
+            target_package = (
+                f"{self._res_package}.spaces.s{self._replay_data.match.map_name}"
+            )
             minimap_settings = read_text(target_package, "space.settings")
 
         minimap_settings = etree.fromstring(minimap_settings)
@@ -1083,21 +1307,25 @@ class RendererBase:
         if self._dual and self._as_enemy:
             map_w, map_h = get_map_size(minimap_settings)
 
-            with open_binary(target_package, 'minimap.png') as _map:
+            with open_binary(target_package, "minimap.png") as _map:
                 island: Image.Image = Image.open(_map)
 
             base: Image.Image = Image.new("RGBA", (800, 800), "#00000000")
             self._scaling_x = island.width / map_w
             self._scaling_y = island.height / map_h
             self._img_minimap = base
-            self._img_info_panel = base.copy().resize((800, 850), resample=Image.NEAREST)
+            self._img_info_panel = base.copy().resize(
+                (800, 850), resample=Image.NEAREST
+            )
             return
 
-        b_islands, b_water, b_legends = map(open_binary, (target_package, target_package, self._shared_res_package),
-                                            ('minimap.png', 'minimap_water.png', 'minimap_grid_legends.png'))
+        b_islands, b_water, b_legends = map(
+            open_binary,
+            (target_package, target_package, self._shared_res_package),
+            ("minimap.png", "minimap_water.png", "minimap_grid_legends.png"),
+        )
 
-        water, island, legend = map(
-            Image.open, [b_water, b_islands, b_legends])
+        water, island, legend = map(Image.open, [b_water, b_islands, b_legends])
         info_panel = water.copy()
         self._global_bg_color = info_panel.getpixel((10, 10))
         water = water.resize(legend.size, resample=Image.LANCZOS)
@@ -1108,12 +1336,16 @@ class RendererBase:
         water.paste(island, offset, island)
 
         info_panel = info_panel.resize(
-            (water.width, water.height + 50), resample=Image.NEAREST)
+            (water.width, water.height + 50), resample=Image.NEAREST
+        )
         self._img_info_panel = info_panel
 
         if self._logs:
             new_base = Image.new(
-                "RGBA", (info_panel.width + 500, info_panel.height), self._global_bg_color)
+                "RGBA",
+                (info_panel.width + 500, info_panel.height),
+                self._global_bg_color,
+            )
             new_base.paste(info_panel)
             self._img_info_panel = new_base
 
@@ -1126,30 +1358,34 @@ class RendererBase:
         """
         Loads the required fonts.
         """
-        self._font = ImageFont.truetype(open_binary(
-            self._shared_res_package, "warhelios_bold.ttf"), size=12)
-        self._font_damage = ImageFont.truetype(open_binary(
-            self._shared_res_package, "warhelios_bold.ttf"), size=32)
-        self._font_time = ImageFont.truetype(open_binary(
-            self._shared_res_package, "warhelios_bold.ttf"), size=18)
-        self._font_weather = ImageFont.truetype(open_binary(
-            self._shared_res_package, "warhelios_bold.ttf"), size=18)
-        self._font_score = ImageFont.truetype(open_binary(
-            self._shared_res_package, "warhelios_bold.ttf"), size=23)
+        self._font = ImageFont.truetype(
+            open_binary(self._shared_res_package, "warhelios_bold.ttf"), size=12
+        )
+        self._font_damage = ImageFont.truetype(
+            open_binary(self._shared_res_package, "warhelios_bold.ttf"), size=32
+        )
+        self._font_time = ImageFont.truetype(
+            open_binary(self._shared_res_package, "warhelios_bold.ttf"), size=18
+        )
+        self._font_weather = ImageFont.truetype(
+            open_binary(self._shared_res_package, "warhelios_bold.ttf"), size=18
+        )
+        self._font_score = ImageFont.truetype(
+            open_binary(self._shared_res_package, "warhelios_bold.ttf"), size=23
+        )
 
     def _get_used_ships(self):
         """
         Pre generates icon holders and gets the ship info.
         """
-        si: dict[str, dict] = json.load(
-            open_text(self._res_package, "info_ship.json"))
+        si: dict[str, dict] = json.load(open_text(self._res_package, "info_ship.json"))
 
         for player in self._replay_data.players.values():
             ship = si[str(player.ship_params_id)]
-            name = ship['name']
-            species = ship['species']
-            level = ship['level']
-            visibility_coef = ship['visibility_coef']
+            name = ship["name"]
+            species = ship["species"]
+            level = ship["level"]
+            visibility_coef = ship["visibility_coef"]
             if self._dual:
                 if self._as_enemy:
                     color = self._colors[1]
@@ -1158,17 +1394,18 @@ class RendererBase:
             else:
                 color = self._colors[player.relation]
 
-            holder = generate_holder(
-                ship['name'], font=self._font, font_color=color)
+            holder = generate_holder(ship["name"], font=self._font, font_color=color)
             self._info_ships[player.vehicle_id] = self._nt_ship_info(
-                name, species, level, visibility_coef, holder)
+                name, species, level, visibility_coef, holder
+            )
 
     def _get_used_planes(self):
         """
         Gets all the used plane in the replay.
         """
         pi: dict[str, dict] = json.load(
-            open_text(self._res_package, "info_planes.json"))
+            open_text(self._res_package, "info_planes.json")
+        )
 
         for states in self._replay_data.states.values():
             for plane in states.planes.values():
@@ -1176,7 +1413,8 @@ class RendererBase:
                 if info_id not in self._info_planes:
                     info = pi[info_id]
                     self._info_planes[plane.plane_params_id] = self._nt_plane_info(
-                        info['species'], info['ammo_type'])
+                        info["species"], info["ammo_type"]
+                    )
 
     def _get_player_initial_state(self):
         """
@@ -1188,7 +1426,9 @@ class RendererBase:
             if vehicle.vehicle_id == self._replay_data.match.owner_vehicle_id:
                 self._player_pos_x = vehicle.x
                 self._player_pos_y = vehicle.y
-                self._player_view_range = self._info_ships[vehicle.vehicle_id].visibility_coef
+                self._player_view_range = self._info_ships[
+                    vehicle.vehicle_id
+                ].visibility_coef
                 break
 
     def _get_cap_total_progress(self):
@@ -1204,8 +1444,12 @@ class RendererBase:
         """
         Loads the death types.
         """
-        self._death_types: dict[str, dict] = {int(k): v for k, v in
-                                              json.load(open_text(self._res_package, "info_death.json")).items()}
+        self._death_types: dict[str, dict] = {
+            int(k): v
+            for k, v in json.load(
+                open_text(self._res_package, "info_death.json")
+            ).items()
+        }
 
     def _get_writer(self):
         """
@@ -1215,14 +1459,25 @@ class RendererBase:
 
         if self._benny:
             with path(self._shared_res_package, "bgm.mp3") as bgm_path:
-                return write_frames(path=self._temp_output_path, fps=self._fps,
-                                    macro_block_size=self._get_macro_block(),
-                                    quality=self._quality, size=self._img_info_panel.size, pix_fmt_in="rgba",
-                                    audio_path=str(bgm_path.absolute()),
-                                    output_params=['-shortest'])
+                return write_frames(
+                    path=self._temp_output_path,
+                    fps=self._fps,
+                    macro_block_size=self._get_macro_block(),
+                    quality=self._quality,
+                    size=self._img_info_panel.size,
+                    pix_fmt_in="rgba",
+                    audio_path=str(bgm_path.absolute()),
+                    output_params=["-shortest"],
+                )
         else:
-            return write_frames(path=self._temp_output_path, fps=self._fps, macro_block_size=self._get_macro_block(),
-                                quality=self._quality, size=self._img_info_panel.size, pix_fmt_in="rgba")
+            return write_frames(
+                path=self._temp_output_path,
+                fps=self._fps,
+                macro_block_size=self._get_macro_block(),
+                quality=self._quality,
+                size=self._img_info_panel.size,
+                pix_fmt_in="rgba",
+            )
 
     def _get_macro_block(self) -> int:
         """
