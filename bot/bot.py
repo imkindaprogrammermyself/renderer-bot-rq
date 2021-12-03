@@ -7,7 +7,7 @@ import discord
 from discord import TextChannel
 from discord.ext.commands import AutoShardedBot
 from utils.helpers import check_environ_vars
-from utils.logger import LOGGER, LOGGER_BOT, LOGGER_REDIS, logger_extra
+from utils.logger import LOGGER, LOGGER_BOT, LOGGER_REDIS
 
 from .cogs.cog_administrative import Administrative
 from .cogs.cog_extract_chat import ExtractChat
