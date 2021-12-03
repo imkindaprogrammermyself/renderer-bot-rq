@@ -58,8 +58,8 @@ class PermissionCheckerCog(Cog):
             except Exception:
                 pass
             LOGGER_BOT.error(
-                f"Command `{ctx.command}` invoked on a channel missing required the permissions.",
-                extra=logger_extra(ctx),
+                msg=f"Command `{ctx.command}` invoked on a channel missing required the permissions.",
+                extra=logger_extra(ctx, desc=f"Command `{ctx.command}` invoked on a channel missing required the permissions."),
             )
             raise PermissionError
 
