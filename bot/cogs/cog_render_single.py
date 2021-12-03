@@ -103,7 +103,7 @@ class RenderSingle(TaskCog):
                         if progress := job.get_meta(refresh=True).get("progress", None):
                             progress = round(progress * 10)
                             embed = self._get_embed(
-                                ctx, YELLOW, status="Rending", per=progress
+                                ctx, YELLOW, status="Rendering", per=progress
                             )
                         elif task_status := job.get_meta(refresh=True).get("status", None):
                             embed = self._get_embed(ctx, YELLOW, status=task_status)
