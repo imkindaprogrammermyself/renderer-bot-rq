@@ -7,10 +7,13 @@ from discord.guild import Guild
 from discord.permissions import Permissions
 from rq.job import Job
 from utils.logger import LOGGER_BOT, logger_extra
-from utils.redisconn import ASYNC_REDIS
+from utils.redisconn import ASYNC_REDIS, REDIS
 from utils.settings import retrieve_from_env
-from utils.strings import MSG_SPS820, MSG_ZLD216
-
+from utils.strings import MSG_DQP186, MSG_FNB379, MSG_IIZ122, MSG_OIJ303, MSG_QFA769, MSG_QYM865, MSG_SPS820, MSG_YSL748, MSG_ZLD216
+from utils.redisconn import ASYNC_REDIS
+from rq import Queue
+from rq.job import Job
+from rq.worker import Worker
 
 def track_task_request(f):
     async def wrapped(self, ctx: Context, *args, **kwargs):
@@ -18,7 +21,7 @@ def track_task_request(f):
         try:
             return await f(self, ctx, *args, **kwargs)
         except Exception as e:
-            LOGGER_BOT(e, exc_info=e)
+            LOGGER_BOT.error(e, exc_info=e)
         finally:
             await ASYNC_REDIS.delete(f"task_request_{ctx.author.id}")
 
@@ -52,7 +55,7 @@ class PermissionCheckerCog(Cog):
 
             try:
                 await ctx.send(joined_lines)
-            except Exception as e:
+            except Exception:
                 pass
             LOGGER_BOT.error(
                 f"Command `{ctx.command}` invoked on a channel missing required the permissions.",
@@ -72,6 +75,31 @@ class TaskCog(PermissionCheckerCog):
         self._queue_max_wait_time = retrieve_from_env("QUEUE_MAX_WAIT_TIME", int)
         self._paypal_url = retrieve_from_env("URL_PAYPAL", str, allow_none=True)
         self._required_perm = json.loads(retrieve_from_env("BOT_REQUIRED_PERM", str))
+
+    async def _checks(self, ctx: Context, queue: Queue):
+        worker_count = Worker.count(connection=REDIS, queue=queue)
+        cooldown = await ASYNC_REDIS.ttl(f"cooldown_{ctx.author.id}")
+        message = ctx.message
+
+        ebd = Embed(title=MSG_OIJ303, color=0xFF751A)
+        ebd.set_thumbnail(url=MSG_YSL748)
+
+        try:
+            assert worker_count != 0, f"{message.author.mention} {MSG_DQP186}"
+            assert (
+                queue.count <= self._task_queue_size
+            ), f"{message.author.mention} {MSG_QFA769}"
+            assert cooldown <= 0, f"{message.author.mention} {MSG_IIZ122} {cooldown}s"
+            assert not await ASYNC_REDIS.exists(
+                f"task_request_{ctx.author.id}"
+            ), f"{message.author.mention} {MSG_FNB379}"
+            assert message.attachments, f"{message.author.mention} {MSG_QYM865}"
+            return True
+        except AssertionError as e:
+            ebd.description = str(e)
+            await ctx.channel.send(embed=ebd, delete_after=5)
+            await self._try_delete_message(message)
+            return False
 
     def _get_embed(self, ctx: Context, color: int, **kwargs) -> Embed:
         username = self._username_to_use(ctx)
