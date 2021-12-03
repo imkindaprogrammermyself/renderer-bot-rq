@@ -106,7 +106,7 @@ MSG_UWL774 = "ExtractChat cog ready."
 MSG_JMP230 = "No json file attached."
 MSG_RHH207 = "Permission error. Please make sure the bot has these permissions in this channel.\n`{0}`"
 MSG_OLI026 = "GUILD: {0} | GUILD ID: {1} | CHANNEL: {2} | CHANNEL ID: {3}"
-
+MSG_ADS530 = "This server has been added to the chat extract list. Users will be able to use `{0}chat` command in this server."
 
 def _random_str():
     a = ''.join([random.choice(string.ascii_uppercase) for _ in range(3)])
