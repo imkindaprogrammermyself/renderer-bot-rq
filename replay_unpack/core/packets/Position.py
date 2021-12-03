@@ -19,7 +19,6 @@ class Position(PrettyPrintObjectMixin):
     )
 
     def __init__(self, stream):
-        # type: (StringIO) -> ()
         self.entityId, = struct.unpack('i', stream.read(4))
         self.vehicleId, = struct.unpack('i', stream.read(4))
         self.position = Vector3(stream)
