@@ -4,7 +4,7 @@ import string
 MSG_QFA769 = "Queue full. Please try again later."
 MSG_IIZ122 = " You're in cooldown for"
 MSG_FNB379 = "You have an ongoing/queued render. Please try again later."
-MSG_QYM865 = "No replay file attached."
+MSG_QYM865 = "No file attached."
 MSG_LKN365 = "Rendered file too large (Discord 8MB limit)\n Try running it again without `logs`"
 MSG_DQP186 = "No running workers detected."
 MSG_IBK358 = "An error occurred."
