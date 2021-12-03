@@ -156,15 +156,14 @@ class Administrative(Cog):
         """
         try:
             whitelist_key = f"{SETTINGS_PREFIX}.BOT_SERVER_WHITELIST"
-            await ASYNC_REDIS.delete(f"guild.{guild.id}.render-channels")
-            await ASYNC_REDIS.delete(f"guild.{guild.id}.extract-channels")
+            await ASYNC_REDIS.srem("guilds.chat_extract", guild.id)
             await ASYNC_REDIS.srem(whitelist_key, guild.id)
         except Exception as e:
             LOGGER_BOT.error(e, exc_info=e)
         else:
             LOGGER_BOT.info(f"Bot has left {guild.name}({guild.id}) server.")
 
-    @commands.command(name="enablechatextract")
+    @commands.command(name="enablechat")
     @commands.has_permissions(manage_channels=True)
     @command_logger(color=0x990099)
     async def _enable_chat_extract(self, ctx: Context):
@@ -181,11 +180,11 @@ class Administrative(Cog):
         if await ASYNC_REDIS.sadd("guilds.chat_extract", guild.id):
             embed.description = MSG_ADS530.format(self._bot.command_prefix)
         else:
-            embed.description = "This server is already added to the chat extract list."
+            embed.description = f"{self._bot.command_prefix}chat is now enabled in this server."
         await ctx.send(embed=embed)
         return
 
-    @commands.command(name="disablechatextract")
+    @commands.command(name="disablechat")
     @commands.has_permissions(manage_channels=True)
     @command_logger(color=0x990099)
     async def _disable_chat_extract(self, ctx: Context):
@@ -197,10 +196,10 @@ class Administrative(Cog):
 
         if await ASYNC_REDIS.srem("guilds.chat_extract", guild.id):
             embed.description = (
-                "This server has been removed from the chat extract list."
+                f"{self._bot.command_prefix}chat is now disabled in this server."
             )
         else:
-            embed.description = "This server is not in the chat extract list."
+            embed.description = f"{self._bot.command_prefix}chat is already disabled in this server."
 
         await ctx.send(embed=embed)
         return
@@ -241,8 +240,9 @@ class Administrative(Cog):
         """
         try:
             int_guild_id = int(guild_id)
-        except ValueError:
+        except ValueError as e:
             await ctx.send(embed=create_bot_message("Invalid guild id.", RED))
+            LOGGER_BOT.error(e, exc_info=e)
             return
 
         whitelist_key = f"{SETTINGS_PREFIX}.BOT_SERVER_WHITELIST"
@@ -274,7 +274,6 @@ class Administrative(Cog):
             await ctx.send(embed=create_bot_message(MSG_RAR548, MSG_WARN))
 
     @settings.command(name="set")
-    @command_logger(color=0x990099)
     async def _settings_set(self, ctx: Context, key: str, value: str):
         """
         Sets a setting value.
@@ -320,7 +319,6 @@ class Administrative(Cog):
         return
 
     @settings.command(name="get")
-    @command_logger(color=0x990099)
     async def _settings_get(self, ctx: Context, key: str):
         """
         Gets the setting value.
@@ -351,12 +349,25 @@ class Administrative(Cog):
             LOGGER_BOT.error(e, exc_info=e)
             await ctx.send(embed=create_bot_message(MSG_OTK071, MSG_ERROR))
 
-    @commands.command("chatextractguilds")
+    ##########
+    # GUILDS #
+    ##########
+
+    @commands.group(name="guild")
     @commands.check(check_is_authorized)
     @command_logger(color=0x990099)
-    async def _extract_channels(self, ctx: Context):
+    async def _guilds(self, ctx: Context):
         """
-        Gets all the extract channels' info and put it in a text file.
+        Base command.
+        :param ctx: Context.
+        """
+        if ctx.invoked_subcommand is None:
+            await ctx.send(embed=create_bot_message(MSG_RAR548, MSG_WARN))
+
+    @_guilds.command(name="chat")
+    async def _guilds_chat(self, ctx: Context):
+        """
+        Gets all the extract guilds' info and put it in a text file.
         :param ctx: Context.
         """
         try:
@@ -376,23 +387,7 @@ class Administrative(Cog):
         except Exception as e:
             LOGGER_BOT.error(e, exc_info=e)
 
-    ##########
-    # GUILDS #
-    ##########
-
-    @commands.group(name="guilds")
-    @commands.check(check_is_authorized)
-    @command_logger(color=0x990099)
-    async def _guilds(self, ctx: Context):
-        """
-        Base command.
-        :param ctx: Context.
-        """
-        if ctx.invoked_subcommand is None:
-            await ctx.send(embed=create_bot_message(MSG_RAR548, MSG_WARN))
-
     @_guilds.group(name="list")
-    @command_logger(color=0x990099)
     async def _guilds_list(self, ctx: Context):
         """
         Lists the joined guilds and put it in a text file.
@@ -406,7 +401,6 @@ class Administrative(Cog):
             await ctx.send(file=File(f, filename="guilds.txt"))
 
     @_guilds.group(name="leave")
-    @command_logger(color=0x990099)
     async def _guild_leave(self, ctx: Context, guild_id):
         """
         Leaves the guild specified by the guild id.
@@ -425,7 +419,6 @@ class Administrative(Cog):
             LOGGER_BOT.error(e, exc_info=e)
 
     @_guilds.group(name="ban")
-    @command_logger(color=0x990099)
     async def _guild_ban(self, ctx: Context, guild_id):
         """
         Bands the guild specified by the guild id.
@@ -448,7 +441,6 @@ class Administrative(Cog):
             LOGGER_BOT.error(e, exc_info=e)
 
     @_guilds.group(name="unban")
-    @command_logger(color=0x990099)
     async def _guild_unban(self, ctx: Context, guild_id):
         """
         Unbans the guild specified by the guild id.
