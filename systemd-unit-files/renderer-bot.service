@@ -9,7 +9,7 @@ Environment=LANG=en_US.UTF-8
 Environment=LC_ALL=en_US.UTF-8
 Environment=LC_LANG=en_US.UTF-8
 ExecStart=/home/ubuntu/renderer_bot_rq/venv/bin/python main.py -r bot
-ExecStop=/bin/kill -s INT $MAINPID && /bin/kill -s INT $MAINPID
+ExecStop=/bin/kill -s SIGINT $MAINPID
 PrivateTmp=true
 Restart=always
 
