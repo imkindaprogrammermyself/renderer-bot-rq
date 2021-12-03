@@ -4,9 +4,6 @@ import asyncio
 from os import getenv
 from .logger import LOGGER_REDIS, EXIT
 from .helpers import check_environ_vars
-from dotenv import load_dotenv
-
-load_dotenv()
 
 check_environ_vars(LOGGER_REDIS, 'REDIS_TESTING_URL', 'REDIS_PRODUCTION_URL')
 
