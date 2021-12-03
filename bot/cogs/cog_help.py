@@ -2,7 +2,7 @@ from os import getenv
 
 from discord import Embed
 from discord.ext import commands
-from discord.ext.commands import Bot, Cog, Context
+from discord.ext.commands import Bot, Context
 
 from utils.helpers import check_environ_vars
 from utils.logger import LOGGER_BOT, command_logger
@@ -19,9 +19,6 @@ class Help(PermissionCheckerCog):
     def __init__(self, bot):
         self._bot: Bot = bot
         LOGGER_BOT.info(MSG_VDU671)
-
-    # async def cog_before_invoke(self, ctx: Context):
-    #     raise PermissionError
 
     @commands.group(name="help")
     @command_logger(color=0xFF99CC)
