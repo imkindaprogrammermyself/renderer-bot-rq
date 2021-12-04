@@ -764,38 +764,25 @@ class RendererBase:
         :return: PIL Image containing the scores/scores bar.
         """
         image: Image.Image = Image.new("RGBA", (700, 50), self._global_bg_color)
-        mid_space = 50
+        spacer = 50
         bar_height = 30
         mid = round(image.width / 2)
-        bar_ally_x_pos = round(mid * (score_state.ally_score / score_state.win_score))
-        bar_enemy_x_pos = round(mid * (score_state.enemy_score / score_state.win_score))
         ally_score_text_w, ally_score_text_h = self._font_score.getsize(
             f"{score_state.ally_score}"
         )
         separator_w, separator_h = self._font_score.getsize(":")
         draw = ImageDraw.Draw(image)
-
-        # GREEN
+        draw.rectangle([(0, 0), (mid - spacer, bar_height)], outline="#4ce8aa", width=1)
         draw.rectangle(
-            [(0, 0), (mid - mid_space, bar_height)], outline="#4ce8aa", width=1
-        )
-        draw.rectangle(
-            [(0, 0), (bar_ally_x_pos - mid_space, bar_height)], fill="#4ce8aa"
-        )
-        # RED
-        draw.rectangle(
-            [(mid + mid_space, 0), (image.width - 1, bar_height)],
+            [(mid + spacer, 0), (image.width - 1, bar_height)],
             outline="#fe4d2a",
             width=1,
         )
-        draw.rectangle(
-            [
-                (mid + mid_space, 0),
-                (round(image.width / 2) + bar_enemy_x_pos - 1, bar_height),
-            ],
-            fill="#fe4d2a",
-        )
-
+        a = (mid - spacer) * (score_state.ally_score / score_state.win_score)
+        b = ((mid - spacer) - 1) * (score_state.enemy_score / score_state.win_score)
+        b = b + mid + spacer
+        draw.rectangle([(0, 0), (a, bar_height)], fill="#4ce8aa")
+        draw.rectangle([(mid + spacer, 0), (b, bar_height)], fill="#fe4d2a")
         draw.text(
             (mid - ally_score_text_w - 8, -1),
             text=str(score_state.ally_score),
@@ -835,7 +822,7 @@ class RendererBase:
         elif self._replay_data.match.battle_type == 15:
             rate = 10
             score_tick = 2
-        elif self._replay_data.match.battle_type == 1:
+        elif self._replay_data.match.battle_type == 11:
             rate = 2
             score_tick = 6
         else:
