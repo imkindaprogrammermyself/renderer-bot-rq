@@ -125,10 +125,11 @@ def draw_grid(size=(760, 760)):
     image: Image.Image = Image.new("RGBA", size)
     draw = ImageDraw.Draw(image)
     for x in range(0, 760, round(760 / 10)):
-        if x == 0:
-            continue
+        # if x == 0:
+        #     continue
         draw.line([(x, 0), (x, image.height)], fill="#ffffff40")
         draw.line([(0, x), (image.width, x)], fill="#ffffff40")
+    draw.rectangle([(0, 0), (image.width - 1, image.height - 1)], outline="#ffffff40", width=1)
     return image
 
 
