@@ -19,7 +19,6 @@ def update_db():
 
     check_environ_vars(
         LOGGER,
-        "BOT_CONTROL_CHANNEL",
         "BOT_OWNERS",
         "FPS",
         "QUALITY",
@@ -30,7 +29,6 @@ def update_db():
 
     settings_prefix = getenv("SETTINGS_PREFIX")
     data_types = {
-        "BOT_CONTROL_CHANNEL": int,
         "BOT_OWNERS": list,
         "FPS": int,
         "QUALITY": int,

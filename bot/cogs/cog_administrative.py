@@ -42,9 +42,6 @@ SETTINGS_PREFIX = getenv("SETTINGS_PREFIX")
 class Administrative(Cog):
     def __init__(self, bot):
         self._bot: Bot = bot
-        self._channel_controller: TextChannel = self._bot.get_channel(
-            int(REDIS.get(f"{SETTINGS_PREFIX}.BOT_CONTROL_CHANNEL"))
-        )
         LOGGER_BOT.info("Administrative cog loaded.")
 
     ##########
