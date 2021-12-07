@@ -38,8 +38,8 @@ Modify the values.
 ## RUNNING THE BOT AND THE WORKER
 This assumes you have Docker installed.
 
-    >cd renderer-bot-rq
-    >docker-compose up redis worker bot
+    $cd renderer-bot-rq
+    $docker-compose up redis worker bot
 
 main.py arguments:
 
