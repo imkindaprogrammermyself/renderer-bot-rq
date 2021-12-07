@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  rendererbot:
+    image: rendererbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --wait-for-client --listen 0.0.0.0:5678 venv/lib64/python3.9/site-packages/dotenv/main.py "]
+    ports:
+      - 5678:5678

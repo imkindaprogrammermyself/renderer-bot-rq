@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  bot:
+    env_file:
+      - .env
+    image: renderer_bot
+    build:
+      context: .
+      dockerfile: ./Dockerfile-bot
+  worker:
+    env_file:
+      - .env
+    image: renderer_worker
+    build:
+      context: .
+      dockerfile: ./Dockerfile-worker-all-queue
+  redis:
+    image: "redis:alpine"
+    ports: 
+      - "6379:6379"
