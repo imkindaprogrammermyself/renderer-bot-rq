@@ -4,22 +4,6 @@ A Discord bot that generates a video from a World of Warships replay file.
 Clone this repo.
 `git clone https://github.com/imkindaprogrammermyself/renderer-bot-rq.git`  
 
-Create a virtual environment via Python's venv module and activate it. (This assumes you have Python 3.9 installed and on Linux)
->$cd renderer-bot-rq
->$python3.9 -m venv venv
->$. venv/bin/activate
->$pip install -r requirements.txt
-
-Install `redis-server`.
-You can install redis by following the instruction [here](https://redis.io/topics/quickstart) or via `apt`.
-
-If you're planning to run the `bot`, `worker` and `redis-server ` separately, modify the following values inside `/etc/redis/redis.conf`
-
-Comment out the line with `bind 127.0.0.1 ::1`.
-Uncomment the line with `# requirepass foobared` and change `foobared` to something secure to set the password.
-Restart the `redis-server`.
-
-
 ## SETTING UP .ENV VALUES
 First, you need to create a `.env` file. Start by,
 >$cp .env-template .env
@@ -51,14 +35,11 @@ Modify the values.
  - `URL_PAYPAL` Donation URL. Can be Patreon, GoFundMe, etc. Omitting the values will remove the `Buy me a coffee` from the bot's embed messages.
  - `BACKUP_KEY` Backup encrypt key. Strictly must be a 32 characters long.
 
-## RUNNING THE BOT OR THE WORKER
-This assumes you activated the Python environment you just created.
+## RUNNING THE BOT AND THE WORKER
+This assumes you have Docker installed.
 
- Running the bot.
- >python main.py -r bot
-
-Running a worker
->python main.py -r worker -q single dual chat
+`>cd renderer-bot-rq`
+`>docker-compose up redis worker bot`
 
 main.py arguments:
 
