@@ -20,7 +20,7 @@ class GPEncode(json.JSONEncoder):
 
 
 def get_ship_data(gp_type: str):
-    gp_file_path = join('resources', 'GameParams.data')
+    gp_file_path = join('generation', 'resources', 'GameParams.data')
     with open(gp_file_path, "rb") as f:
         gp_data: bytes = f.read()
     gp_data: bytes = struct.pack('B' * len(gp_data), *gp_data[::-1])
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     for ship in list_ships:
         dict_ships[ship.id] = ship
 
-    mo_file_path = join('resources', 'global.mo')
+    mo_file_path = join('generation', 'resources', 'global.mo')
     mo_strings: MOFile = polib.mofile(mo_file_path)
     dict_strings = {}
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
         si['visibility_coef'] = max(visibility_coeffs)
         dict_ships_info[ship.id] = si
 
-    with open(join('..', 'generation', 'generated', 'info_ship.json'), 'w') as f:
+    with open(join('generation', 'generated', 'info_ship.json'), 'w') as f:
         json.dump(dict_ships_info, f, indent=1)
     #
     # with open(join('..', 'generation', 'generated', 'ships.json'), 'w') as f:

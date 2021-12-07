@@ -17,7 +17,7 @@ class GPEncode(json.JSONEncoder):
 
 
 def get_data(gp_type: str):
-    gp_file_path = join('resources', 'GameParams.data')
+    gp_file_path = join('generation', 'resources', 'GameParams.data')
     with open(gp_file_path, "rb") as f:
         gp_data: bytes = f.read()
     gp_data: bytes = struct.pack('B' * len(gp_data), *gp_data[::-1])
@@ -33,8 +33,8 @@ if __name__ == '__main__':
     import shutil
 
     for data in list_data:
-        path = join(os.getcwd(), 'resources', 'achievements', 'icons', f"icon_achievement_{data.uiName}.png")
-        new_path = join(os.getcwd(), 'generated', 'achievements', f"{data.id}.png")
+        path = join('generation', 'resources', 'achievements', 'icons', f"icon_achievement_{data.uiName}.png")
+        new_path = join('generation', 'generated', 'achievements', f"{data.id}.png")
         if os.path.exists(path):
             os.makedirs(os.path.dirname(new_path), exist_ok=True)
             shutil.copy(path, new_path)

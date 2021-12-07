@@ -33,5 +33,5 @@ DEATH_TYPES = {
     28: {'sound': 'DepthCharge', 'icon': 'icon_frag_depthbomb', 'id': 28, 'name': 'ADBOMB'}
 }
 
-with open(join('..', 'generation', 'generated', 'info_death.json'), 'w') as f:
+with open(join('generation', 'generated', 'info_death.json'), 'w') as f:
     json.dump(DEATH_TYPES, f, indent=1)

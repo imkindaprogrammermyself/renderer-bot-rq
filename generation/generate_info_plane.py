@@ -17,7 +17,7 @@ class GPEncode(json.JSONEncoder):
 
 
 def get_params_data(*gp_type: str):
-    gp_file_path = join('resources', 'GameParams.data')
+    gp_file_path = join('generation', 'resources', 'GameParams.data')
     with open(gp_file_path, "rb") as f:
         gp_data = f.read()
     gp_data = struct.pack('B' * len(gp_data), *gp_data[::-1])
@@ -49,5 +49,5 @@ if __name__ == '__main__':
               "ammo_type": ammo_type}
         dict_planes_info[plane.id] = pi
 
-    with open(join('..', 'generation', 'generated', 'info_planes.json'), 'w') as f:
+    with open(join('generation', 'generated', 'info_planes.json'), 'w') as f:
         json.dump(dict_planes_info, f, indent=1)
