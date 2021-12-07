@@ -79,3 +79,4 @@ dmypy.json
 cython_debug/
 /code_testing/
 *rdb
+**/.vscode
