@@ -1,7 +1,6 @@
 from os import environ, getenv
 from utils.logger import *
 from utils.helpers import check_environ_vars
-from dotenv import load_dotenv
 
 import json
 import os
@@ -63,7 +62,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
-        load_dotenv()
         environ.pop("ENV_LOADED")
     except KeyError:
         LOGGER.error(".env file not found.", extra=EXIT)

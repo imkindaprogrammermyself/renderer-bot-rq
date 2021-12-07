@@ -24,7 +24,6 @@ from discord.ext.commands.errors import (
     MissingPermissions,
     MissingRequiredArgument,
 )
-from dotenv import load_dotenv
 from utils.constants import GREEN, ORANGE, RED
 from utils.helpers import check_environ_vars
 from utils.logger import LOGGER_BOT, command_logger, logger_extra
@@ -577,14 +576,14 @@ class Administrative(Cog):
                     pass
 
                 # env
-                try:
-                    with open(join(os.getcwd(), ".env"), "w") as f:
-                        with StringIO(data["env"]) as env_data:
-                            f.write(env_data.read())
-                            env_data.seek(0)
-                            load_dotenv(stream=env_data)
-                except Exception as e:
-                    pass
+                # try:
+                #     with open(join(os.getcwd(), ".env"), "w") as f:
+                #         with StringIO(data["env"]) as env_data:
+                #             f.write(env_data.read())
+                #             env_data.seek(0)
+                #             load_dotenv(stream=env_data)
+                # except Exception as e:
+                #     pass
 
                 await ctx.send(embed=create_bot_message(MSG_GOW660, MSG_OK))
 
