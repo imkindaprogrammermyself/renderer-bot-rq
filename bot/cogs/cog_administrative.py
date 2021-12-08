@@ -675,7 +675,11 @@ class Administrative(Cog):
             if result["type"] == "multi":
                 weights_sub = [j['chance'] for j in result["value"]]
                 result_sub = random.choices(result["value"], weights_sub, k=1).pop()
-                rolled.append(result_sub["name"])
+
+                if isinstance(result_sub["name"], list):
+                    rolled.append(random.choice(result_sub["name"]))
+                else:
+                    rolled.append(result_sub["name"])
             else:
                 rolled.append(result["value"])
         return rolled
