@@ -2,6 +2,7 @@ import pickle
 import time
 import zlib
 import os
+import random
 from io import BytesIO, StringIO
 from os import getenv
 from os.path import join
@@ -23,9 +24,10 @@ from discord.ext.commands.errors import (
     CheckFailure,
     MissingPermissions,
     MissingRequiredArgument,
+    BadArgument,
 )
 from dotenv import load_dotenv
-from utils.constants import GREEN, ORANGE, RED
+from utils.constants import GREEN, ORANGE, RED, BOX_MEGA, BOX_BIG, BOX_NORM
 from utils.helpers import check_environ_vars
 from utils.logger import LOGGER_BOT, command_logger, logger_extra
 from utils.redisconn import ASYNC_REDIS, REDIS
@@ -62,6 +64,11 @@ class Administrative(Cog):
 
         if isinstance(error, MissingRequiredArgument):
             embed = create_bot_message(f"{MSG_GDX897} {ctx.author.mention}", MSG_ERROR)
+
+        if isinstance(error, BadArgument):
+            embed = create_bot_message(
+                f"Invalid argument. {ctx.author.mention}", MSG_ERROR
+            )
 
         if embed:
             try:
@@ -177,7 +184,9 @@ class Administrative(Cog):
         if await ASYNC_REDIS.sadd("guilds.chat_extract", guild.id):
             embed.description = MSG_ADS530.format(self._bot.command_prefix)
         else:
-            embed.description = f"{self._bot.command_prefix}chat is now enabled in this server."
+            embed.description = (
+                f"{self._bot.command_prefix}chat is now enabled in this server."
+            )
         await ctx.send(embed=embed)
         return
 
@@ -196,7 +205,9 @@ class Administrative(Cog):
                 f"{self._bot.command_prefix}chat is now disabled in this server."
             )
         else:
-            embed.description = f"{self._bot.command_prefix}chat is already disabled in this server."
+            embed.description = (
+                f"{self._bot.command_prefix}chat is already disabled in this server."
+            )
 
         await ctx.send(embed=embed)
         return
@@ -556,7 +567,9 @@ class Administrative(Cog):
 
                 try:
                     if guilds_chat_extract := data["guilds_chat_extract"]:
-                        await ASYNC_REDIS.sadd("guilds.chat_extract", *guilds_chat_extract)
+                        await ASYNC_REDIS.sadd(
+                            "guilds.chat_extract", *guilds_chat_extract
+                        )
                 except Exception:
                     pass
 
@@ -567,11 +580,12 @@ class Administrative(Cog):
                         )
                 except Exception:
                     pass
-                
+
                 try:
                     if whitelisted_guilds := data["whitelisted_guilds"]:
                         await ASYNC_REDIS.sadd(
-                            f"{SETTINGS_PREFIX}.BOT_SERVER_WHITELIST", *whitelisted_guilds
+                            f"{SETTINGS_PREFIX}.BOT_SERVER_WHITELIST",
+                            *whitelisted_guilds,
                         )
                 except Exception:
                     pass
@@ -591,3 +605,77 @@ class Administrative(Cog):
         except Exception as e:
             await ctx.send(embed=create_bot_message(MSG_OTK071, MSG_ERROR))
             LOGGER_BOT.exception(None, exc_info=e)
+
+    @commands.command("broadcast")
+    @commands.check(check_is_authorized)
+    @command_logger(color=0x990099)
+    async def _broadcast(self, ctx: Context, *args):
+        if not args:
+            return
+
+        async def _get_messageables():
+            for channel in self._bot.get_all_channels():
+                try:
+                    permissions: Permissions = channel.permissions_for(channel.guild.me)
+                    permitted = all(
+                        [
+                            permissions.send_messages,
+                            permissions.read_message_history,
+                        ]
+                    )
+
+                    if isinstance(channel, TextChannel) and permitted:
+                        try:
+                            counter = 0
+                            async for message in channel.history(limit=50):
+                                if message.author.id == self._bot.user.id:
+                                    counter += 1
+                            if counter > 10:
+                                yield channel
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+
+        async for messageable in _get_messageables():
+            if messageable:
+                await messageable.send(" ".join(args))
+
+    @commands.command("gift")
+    @commands.check(
+        lambda ctx: ctx.guild.id in [815060530368741377, 821309859835805697]
+    )
+    @command_logger(color=0x990099)
+    async def _gift(self, ctx: Context, box_type: str, count: int):
+        mapping = {
+            "mega": BOX_MEGA,
+            "big": BOX_BIG,
+            "normal": BOX_NORM,
+        }
+
+        if box_type.lower() not in mapping:
+            await ctx.send(embed=create_bot_message("Invalid box. Possible value (mega, big, normal)", MSG_ERROR))
+            return
+
+        if 1 > count > 100:
+            await ctx.send(embed=create_bot_message("Invalid count. It should be within 1 and 100", MSG_ERROR))
+            return
+
+        with StringIO() as f:
+            f.write('\n'.join(self.roll(mapping[box_type.lower()], count)))
+            f.seek(0)
+            await ctx.send(file=File(f, filename="result.txt"))
+
+    @staticmethod
+    def roll(box: list, count=1):
+        rolled = []
+        for _ in range(count):
+            weights = [i['chance'] for i in box]
+            result = random.choices(box, weights, k=1).pop()
+            if result["type"] == "multi":
+                weights_sub = [j['chance'] for j in result["value"]]
+                result_sub = random.choices(result["value"], weights_sub, k=1).pop()
+                rolled.append(result_sub["name"])
+            else:
+                rolled.append(result["value"])
+        return rolled
