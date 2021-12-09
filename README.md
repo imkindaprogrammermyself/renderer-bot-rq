@@ -128,4 +128,4 @@ Adding a new version to the modified unpacker:
  - `restore` Restores the file generated from the `backup` command.
 
 ### FOOTNOTES
-This will probably the dirtiest program you will see but it works. Don't contribute, just fork it. Continually developing it wouldn't be possible for me since I'm gonna be busy for a long time.
+This will probably the dirtiest program you will see, not tests, no straightforward way of updating it, but it works. Please don't contribute, just fork it and develop it as your own. Continually developing it wouldn't be possible for me since I'm gonna be busy for a long time (work).
