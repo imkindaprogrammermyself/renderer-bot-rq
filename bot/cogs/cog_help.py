@@ -35,6 +35,11 @@ class Help(PermissionCheckerCog):
                 embed.add_field(name=MSG_FXJ230, value=MSG_FCQ421.format(*PREFIX * 2))
                 embed.add_field(name=MSG_XOI463, value=MSG_VIJ262.format(*PREFIX * 2))
                 embed.add_field(
+                    name="Source code:",
+                    value="[Github](https://github.com/imkindaprogrammermyself/renderer-bot-rq)",
+                    inline=False,
+                )
+                embed.add_field(
                     name="\u200B", value=f"{MSG_GVT802}({URL_PAYPAL})", inline=False
                 )
                 await ctx.channel.send(embed=embed)
