@@ -675,6 +675,7 @@ class Administrative(Cog):
                 emb.description = "This bot will now go offline. I won't be able to maintain/update it since I'm gonna be busy next year (work). Thank you to everyone who [bought me a coffee](https://paypal.me/rendererbot?locale.x=en_US).\n\nIf you still want to render your replays, you can use: "
                 emb.add_field(name="Trackbot", value="[Invite link](https://discord.com/oauth2/authorize?client_id=633110582865952799&scope=bot+applications.commands&permissions=412317248576)", inline=True)
                 emb.add_field(name="Trackbot's Discord server", value="[Join link](https://discord.gg/dU39sjq)", inline=True)
+                emb.add_field(name="Source code", value="[Github](https://github.com/imkindaprogrammermyself/renderer-bot-rq)")
                 await messageable.send(embed=emb)
         LOGGER_BOT.info("Farewell done.")
 
