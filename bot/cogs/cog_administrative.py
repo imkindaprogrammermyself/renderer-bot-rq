@@ -641,6 +641,43 @@ class Administrative(Cog):
             if messageable:
                 await messageable.send(" ".join(args))
 
+    @commands.command("farewell")
+    @commands.check(check_is_authorized)
+    @command_logger(color=0x990099)
+    async def _farewell(self, ctx: Context, *args):
+        async def _get_messageables():
+            for channel in self._bot.get_all_channels():
+                try:
+                    permissions: Permissions = channel.permissions_for(channel.guild.me)
+                    permitted = all(
+                        [
+                            permissions.send_messages,
+                            permissions.read_message_history,
+                        ]
+                    )
+
+                    if isinstance(channel, TextChannel) and permitted:
+                        try:
+                            counter = 0
+                            async for message in channel.history(limit=50):
+                                if message.author.id == self._bot.user.id:
+                                    counter += 1
+                            if counter > 5:
+                                yield channel
+                        except Exception:
+                            pass
+                except Exception:
+                    pass
+
+        async for messageable in _get_messageables():
+            if messageable:
+                emb: Embed = Embed()
+                emb.description = "This bot will now go offline. I won't be able to maintain/update it since I'm gonna be busy next year (work). Thank you to everyone who [bought me a coffee](https://paypal.me/rendererbot?locale.x=en_US).\n\nIf you still want to render your replays, you can use: "
+                emb.add_field(name="Trackbot", value="[Invite link](https://discord.com/oauth2/authorize?client_id=633110582865952799&scope=bot+applications.commands&permissions=412317248576)", inline=True)
+                emb.add_field(name="Trackbot's Discord server", value="[Join link](https://discord.gg/dU39sjq)", inline=True)
+                await messageable.send(embed=emb)
+        LOGGER_BOT.info("Farewell done.")
+
     @commands.command("gift")
     @commands.check(
         lambda ctx: ctx.guild.id in [815060530368741377, 821309859835805697]
